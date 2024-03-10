@@ -6,5 +6,10 @@
   "creativetab.crazyness_tab": "Crazyness Tab",
 
   "block.crazyness.sapphire_block": "Sapphire Block",
-  "block.crazyness.raw_sapphire_block": "Raw Sapphire Block"
+  "block.crazyness.raw_sapphire_block": "Raw Sapphire Block",
+
+  "block.crazyness.sapphire_ore": "Sapphire Ore",
+  "block.crazyness.nether_sapphire_ore": "Nether Sapphire Ore",
+  "block.crazyness.end_stone_sapphire_ore": "End Stone Sapphire Ore",
+  "block.crazyness.deepslate_sapphire_ore": "Deepslate Sapphire Ore"
 }
