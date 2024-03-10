@@ -18,12 +18,13 @@ public class ModCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> CRAZYNESS_TAB = CREATIVE_MODE_TABS.register("crazyness_tab",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
+                    .icon(() -> new ItemStack(ModItems.CHEESE.get()))
                     .title(Component.translatable("creativetab.crazyness_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                         pOutput.accept(ModItems.EXPLOSIVE_APPLE.get());
+                        pOutput.accept(ModItems.CHEESE.get());
 
                         pOutput.accept(Blocks.TNT);
 
@@ -33,6 +34,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
                         pOutput.accept(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
+
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
                     })
                     .build());
 
