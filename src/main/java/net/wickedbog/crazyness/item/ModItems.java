@@ -7,6 +7,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.wickedbog.crazyness.crazyness;
+import net.wickedbog.crazyness.item.custom.FuelItem;
 import net.wickedbog.crazyness.item.custom.MetalDetectorItem;
 
 public class ModItems {
@@ -32,6 +33,15 @@ public class ModItems {
             () -> new MetalDetectorItem(new Item.Properties().durability(100)));
 
     public static final RegistryObject<Item> SAPPHIRE_INGOT = ITEMS.register("sapphire_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
+            () -> new FuelItem(new Item.Properties(), 300));
+
+    public static final RegistryObject<Item> RADIOACTIVE_COAL = ITEMS.register("radioactive_coal",
+            () -> new FuelItem(new Item.Properties(), 2400));
+
+    public static final RegistryObject<Item> URANIUM_INGOT = ITEMS.register("uranium_ingot",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {

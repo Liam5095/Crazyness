@@ -26,7 +26,12 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK).sound(SoundType.AMETHYST)));
 
     public static final RegistryObject<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
+           () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
+    public static final RegistryObject<Block> URANIUM_BLOCK = registerBlock("uranium_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)));
+
+    public static final RegistryObject<Block> URANIUM_ORE = registerBlock("uranium_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK).sound(SoundType.STONE)));
     public static final RegistryObject<Block> NETHER_SAPPHIRE_ORE = registerBlock("nether_sapphire_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHER_QUARTZ_ORE)));
 

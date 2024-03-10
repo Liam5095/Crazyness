@@ -4,6 +4,9 @@
   "item.crazyness.explosive_apple": "Explosive Apple",
   "item.crazyness.cheese": "Cheese",
   "item.crazyness.sapphire_ingot": "Sapphire Ingot",
+  "item.crazyness.pine_cone": "Pine Cone",
+  "item.crazyness.radioactive_coal": "Radioactive Coal",
+  "item.crazyness.uranium_ingot": "Uranium Ingot",
 
   "item.crazyness.metal_detector": "Metal Detector",
 
@@ -11,6 +14,8 @@
 
   "block.crazyness.sapphire_block": "Sapphire Block",
   "block.crazyness.raw_sapphire_block": "Raw Sapphire Block",
+  "block.crazyness.uranium_block": "Uranium Block",
+  "block.crazyness.uranium_ore": "Uranium Ore",
 
   "block.crazyness.sapphire_ore": "Sapphire Ore",
   "block.crazyness.nether_sapphire_ore": "Nether Sapphire Ore",

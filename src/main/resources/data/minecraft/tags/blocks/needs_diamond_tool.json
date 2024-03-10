@@ -1,5 +1,7 @@
 {
   "values": [
-    "crazyness:end_stone_sapphire_ore"
+    "crazyness:end_stone_sapphire_ore",
+    "crazyness:uranium_ore",
+    "crazyness:uranium_block"
   ]
 }
