@@ -1,6 +1,10 @@
 {
   "item.crazyness.sapphire": "Sapphire",
   "item.crazyness.raw_sapphire": "Raw Sapphire",
+  "item.crazyness.explosive_apple": "Explosive Apple",
 
-  "creativetab.crazyness_tab": "Crazyness Tab"
+  "creativetab.crazyness_tab": "Crazyness Tab",
+
+  "block.crazyness.sapphire_block": "Sapphire Block",
+  "block.crazyness.raw_sapphire_block": "Raw Sapphire Block"
 }
