@@ -5,6 +5,7 @@
     "minecraft:deepslate_iron_ore",
     "crazyness:deepslate_sapphire_ore",
     "crazyness:uranium_ore",
-    "minecraft:raw_iron_block"
+    "minecraft:raw_iron_block",
+    "minecraft:diamond_ore"
   ]
 }

@@ -31,6 +31,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.PINE_CONE.get());
                         pOutput.accept(ModItems.URANIUM_INGOT.get());
                         pOutput.accept(ModItems.RADIOACTIVE_COAL.get());
+                        pOutput.accept(ModItems.SPARERIB.get());
 
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());

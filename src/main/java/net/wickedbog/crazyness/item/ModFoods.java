@@ -14,4 +14,7 @@ public class ModFoods {
 
     public static final FoodProperties EXPLOSIVE_APPLE = new FoodProperties.Builder().nutrition(1).fast()
             .saturationMod(0.1f).effect(() -> new MobEffectInstance(MobEffects.POISON, 100,1), 0.1F).build();
+
+    public static final FoodProperties SPARERIB = new FoodProperties.Builder().nutrition(10)
+            .saturationMod(0.5f).meat().build();
 }

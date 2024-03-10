@@ -44,6 +44,9 @@ public class ModItems {
     public static final RegistryObject<Item> URANIUM_INGOT = ITEMS.register("uranium_ingot",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> SPARERIB = ITEMS.register("sparerib",
+            () -> new Item(new Item.Properties().food(ModFoods.SPARERIB)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
