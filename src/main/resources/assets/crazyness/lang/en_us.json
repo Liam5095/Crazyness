@@ -22,5 +22,8 @@
   "block.crazyness.end_stone_sapphire_ore": "End Stone Sapphire Ore",
   "block.crazyness.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
 
-  "block.crazyness.sound_block": "Sound Block"
+  "block.crazyness.sound_block": "Sound Block",
+
+  "tooltip.crazyness.metal_detector": "Finds valuables underground!",
+  "tooltip.crazyness.sound_block": "Plays the wither death sound effect to prank your friends!"
 }
