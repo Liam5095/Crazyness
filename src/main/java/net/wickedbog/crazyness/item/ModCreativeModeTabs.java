@@ -26,6 +26,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.EXPLOSIVE_APPLE.get());
                         pOutput.accept(ModItems.CHEESE.get());
                         pOutput.accept(ModItems.SAPPHIRE_INGOT.get());
+                        pOutput.accept(ModItems.STRAWBERRY.get());
 
                         pOutput.accept(Blocks.TNT);
 
