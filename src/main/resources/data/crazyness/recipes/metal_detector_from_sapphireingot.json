@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  /",
+    " / ",
+    "cc "
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "c": {
+      "item": "crazyness:sapphire_ingot"
+    }
+  },
+  "result": {
+    "item": "crazyness:metal_detector",
+    "count": 1
+  }
+}

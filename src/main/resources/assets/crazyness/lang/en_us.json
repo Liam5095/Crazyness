@@ -3,6 +3,7 @@
   "item.crazyness.raw_sapphire": "Raw Sapphire",
   "item.crazyness.explosive_apple": "Explosive Apple",
   "item.crazyness.cheese": "Cheese",
+  "item.crazyness.sapphire_ingot": "Sapphire Ingot",
 
   "item.crazyness.metal_detector": "Metal Detector",
 
@@ -14,5 +15,7 @@
   "block.crazyness.sapphire_ore": "Sapphire Ore",
   "block.crazyness.nether_sapphire_ore": "Nether Sapphire Ore",
   "block.crazyness.end_stone_sapphire_ore": "End Stone Sapphire Ore",
-  "block.crazyness.deepslate_sapphire_ore": "Deepslate Sapphire Ore"
+  "block.crazyness.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+
+  "block.crazyness.sound_block": "Sound Block"
 }

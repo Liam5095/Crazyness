@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                         pOutput.accept(ModItems.EXPLOSIVE_APPLE.get());
                         pOutput.accept(ModItems.CHEESE.get());
+                        pOutput.accept(ModItems.SAPPHIRE_INGOT.get());
 
                         pOutput.accept(Blocks.TNT);
 
@@ -36,6 +37,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
 
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
+
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                     })
                     .build());
 

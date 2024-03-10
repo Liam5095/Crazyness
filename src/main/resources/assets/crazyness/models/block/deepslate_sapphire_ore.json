@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "crazyness:block/deepslate_sapphire_ore"
+    "all": "crazyness:block/sapphire_ore"
   }
 }

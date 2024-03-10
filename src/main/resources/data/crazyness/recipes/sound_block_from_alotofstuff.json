@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#N#",
+    "DBD",
+    "C#C"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:emerald"
+    },
+    "N": {
+      "item": "minecraft:note_block"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "B": {
+      "item": "minecraft:nether_star"
+    },
+    "C": {
+      "item": "crazyness:sapphire"
+    }
+  },
+  "result": {
+    "item": "crazyness:sound_block",
+    "count": 1
+  }
+}
