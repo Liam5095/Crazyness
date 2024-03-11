@@ -1,0 +1,10 @@
+// 1.20.1	2024-03-11T15:53:05.4451143	Loot Tables
+9cf9a932223101d5ea13bad546a6a5dce4add4fa data/crazyness/loot_tables/blocks/deepslate_sapphire_ore.json
+862b8c3ff1b01ca12fec04a2980a5e3a37311953 data/crazyness/loot_tables/blocks/end_stone_sapphire_ore.json
+22c8723c9d267873cafd11c66fd4bd28cafada2e data/crazyness/loot_tables/blocks/nether_sapphire_ore.json
+fd5bbeb4ac1827b3cc0332392a520f7a73514804 data/crazyness/loot_tables/blocks/raw_sapphire_block.json
+1ed6b6baca7e1fb3da22af86715d44156b50d899 data/crazyness/loot_tables/blocks/sapphire_block.json
+1bbf765add2eb0122555a3751d8829e60a4346a6 data/crazyness/loot_tables/blocks/sapphire_ore.json
+20691dd9a1e2b7b71927e99f40f2cb8594835704 data/crazyness/loot_tables/blocks/sound_block.json
+1605d43f62d67d7fa87112fc283088d0e90920dc data/crazyness/loot_tables/blocks/uranium_block.json
+f744c266daf83f7e2a93b0af38c39398ec1fbdb6 data/crazyness/loot_tables/blocks/uranium_ore.json
