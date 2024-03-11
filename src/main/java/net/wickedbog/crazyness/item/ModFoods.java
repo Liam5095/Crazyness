@@ -17,4 +17,10 @@ public class ModFoods {
 
     public static final FoodProperties SPARERIB = new FoodProperties.Builder().nutrition(10)
             .saturationMod(0.5f).meat().build();
+
+    public static final FoodProperties ICE_CREAM_DISCODIP = new FoodProperties.Builder().nutrition(2)
+            .saturationMod(0.1F).alwaysEat().build();
+
+    public static final FoodProperties ICE_CREAM_CONE = new FoodProperties.Builder().nutrition(1)
+            .saturationMod(0.05F).alwaysEat().build();
 }

@@ -47,6 +47,18 @@ public class ModItems {
     public static final RegistryObject<Item> SPARERIB = ITEMS.register("sparerib",
             () -> new Item(new Item.Properties().food(ModFoods.SPARERIB)));
 
+    public static final RegistryObject<Item> ICE_CREAM_DISCODIP = ITEMS.register("ice_cream_discodip",
+            () -> new Item(new Item.Properties().food(ModFoods.ICE_CREAM_DISCODIP)));
+
+    public static final RegistryObject<Item> ICE_CREAM_CONE = ITEMS.register("ice_cream_cone",
+            () -> new Item(new Item.Properties().food(ModFoods.ICE_CREAM_CONE)));
+
+    public static final RegistryObject<Item> DISCODIP = ITEMS.register("discodip",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ICE_CREAM= ITEMS.register("ice_cream",
+            () -> new Item(new Item.Properties().food(ModFoods.ICE_CREAM_DISCODIP)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

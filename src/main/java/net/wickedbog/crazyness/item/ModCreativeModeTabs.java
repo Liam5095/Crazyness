@@ -32,6 +32,10 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.URANIUM_INGOT.get());
                         pOutput.accept(ModItems.RADIOACTIVE_COAL.get());
                         pOutput.accept(ModItems.SPARERIB.get());
+                        pOutput.accept(ModItems.ICE_CREAM_CONE.get());
+                        pOutput.accept(ModItems.ICE_CREAM_DISCODIP.get());
+                        pOutput.accept(ModItems.DISCODIP.get());
+                        pOutput.accept(ModItems.ICE_CREAM.get());
 
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
