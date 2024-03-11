@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.5,
+  "group": "uranium",
+  "ingredient": {
+    "item": "crazyness:uranium_ore"
+  },
+  "result": "crazyness:uranium_ingot"
+}

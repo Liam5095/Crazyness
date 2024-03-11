@@ -9,6 +9,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.item.crafting.ShapedRecipe;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import net.wickedbog.crazyness.block.ModBlocks;
 import net.wickedbog.crazyness.crazyness;
@@ -23,6 +24,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             ModBlocks.SAPPHIRE_ORE.get(), ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(),
             ModBlocks.END_STONE_SAPPHIRE_ORE.get(), ModBlocks.NETHER_SAPPHIRE_ORE.get());
 
+    private static final List<ItemLike> SAPPHIRE_BLOCK_SMELTABLES = List.of(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+
+    private  static final List<ItemLike> URANIUM_SMELTABLES = List.of(ModBlocks.URANIUM_ORE.get());
+
     public ModRecipeProvider(PackOutput pOutput) {
         super(pOutput);
     }
@@ -33,10 +38,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         //Smelting
 
         oreSmelting(pWriter, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 0.25F, 100, "sapphire");
+        oreSmelting(pWriter, SAPPHIRE_BLOCK_SMELTABLES, RecipeCategory.MISC, ModBlocks.SAPPHIRE_BLOCK.get(), 0.5F, 300, "sapphire");
+        oreSmelting(pWriter, URANIUM_SMELTABLES, RecipeCategory.MISC, ModItems.URANIUM_INGOT.get(), 0.5F, 300, "uranium");
 
         //Blasting
 
         oreBlasting(pWriter, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 0.25F, 200, "sapphire");
+        oreBlasting(pWriter, SAPPHIRE_BLOCK_SMELTABLES, RecipeCategory.MISC, ModBlocks.SAPPHIRE_BLOCK.get(), 0.5F, 200, "sapphire");
+        oreBlasting(pWriter, URANIUM_SMELTABLES, RecipeCategory.MISC, ModItems.URANIUM_INGOT.get(), 0.5F, 300, "uranium");
 
         //Shaped
 
@@ -65,6 +74,36 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.RAW_SAPPHIRE.get()), has(ModItems.RAW_SAPPHIRE.get()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SOUND_BLOCK.get())
+                .pattern("#N#")
+                .pattern("DBD")
+                .pattern("C#C")
+                .define('#', Items.EMERALD)
+                .define('N', Blocks.NOTE_BLOCK)
+                .define('D', Items.DIAMOND)
+                .define('B', Items.NETHER_STAR)
+                .define('C', ModItems.SAPPHIRE.get())
+                .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.URANIUM_BLOCK.get())
+                .pattern("SSS")
+                .pattern("SSS")
+                .pattern("SSS")
+                .define('S', ModItems.URANIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.URANIUM_INGOT.get()), has(ModItems.URANIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RADIOACTIVE_COAL.get())
+                .pattern(" # ")
+                .pattern("bCb")
+                .pattern(" # ")
+                .define('#', Items.CHARCOAL)
+                .define('b', ModItems.URANIUM_INGOT.get())
+                .define('C', Items.COAL)
+                .unlockedBy(getHasName(ModItems.URANIUM_INGOT.get()), has(ModItems.URANIUM_INGOT.get()))
+                .save(pWriter);
+
 
         //Shapeless
 
@@ -78,11 +117,23 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.RAW_SAPPHIRE_BLOCK.get()), has(ModBlocks.RAW_SAPPHIRE_BLOCK.get()))
                 .save(pWriter);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.URANIUM_INGOT.get(), 9)
+                .requires(ModBlocks.URANIUM_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.URANIUM_BLOCK.get()), has(ModBlocks.URANIUM_BLOCK.get()))
+                .save(pWriter);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.EXPLOSIVE_APPLE.get())
                 .requires(Items.TNT)
                 .requires(Items.APPLE)
                 .unlockedBy(getHasName(Items.TNT), has(Items.TNT))
                 .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SAPPHIRE_INGOT.get())
+                .requires(ModItems.SAPPHIRE.get())
+                .requires(Items.IRON_INGOT)
+                .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+                .save(pWriter);
+
     }
 
     protected static void oneToOneConversionRecipe(Consumer<FinishedRecipe> pFinishedRecipeConsumer, ItemLike pResult, ItemLike pIngredient, @javax.annotation.Nullable String pGroup) {

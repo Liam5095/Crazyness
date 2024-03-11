@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "group": "sapphire",
+  "ingredient": {
+    "item": "crazyness:raw_sapphire_block"
+  },
+  "result": "crazyness:sapphire_block"
+}

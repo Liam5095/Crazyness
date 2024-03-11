@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:charcoal"
+    },
+    "C": {
+      "item": "minecraft:coal"
+    },
+    "b": {
+      "item": "crazyness:uranium_ingot"
+    }
+  },
+  "pattern": [
+    " # ",
+    "bCb",
+    " # "
+  ],
+  "result": {
+    "item": "crazyness:radioactive_coal"
+  },
+  "show_notification": true
+}
