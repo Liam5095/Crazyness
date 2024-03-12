@@ -55,8 +55,11 @@ public class ModItems {
     public static final RegistryObject<Item> DISCODIP = ITEMS.register("discodip",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> ICE_CREAM= ITEMS.register("ice_cream",
+    public static final RegistryObject<Item> ICE_CREAM = ITEMS.register("ice_cream",
             () -> new Item(new Item.Properties().food(ModFoods.ICE_CREAM_DISCODIP)));
+
+    public static final RegistryObject<Item> SAPPHIRE_STAFF = ITEMS.register("sapphire_staff",
+            () -> new Item(new Item.Properties().stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
