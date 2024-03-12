@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "z": {
+      "item": "crazyness:sapphire_block"
+    }
+  },
+  "pattern": [
+    "szs",
+    "szs",
+    "   "
+  ],
+  "result": {
+    "count": 3,
+    "item": "crazyness:sapphire_fence_gate"
+  },
+  "show_notification": true
+}

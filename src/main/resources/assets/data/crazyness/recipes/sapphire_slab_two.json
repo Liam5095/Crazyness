@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "sss"
+  ],
+  "key": {
+    "s": {
+      "item": "crazyness:sapphire_block"
+    }
+  },
+  "result": {
+    "item": "crazyness:sapphire_slab",
+    "count": 1
+  }
+}

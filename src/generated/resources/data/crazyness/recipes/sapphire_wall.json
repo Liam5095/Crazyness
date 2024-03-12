@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "s": {
+      "item": "crazyness:sapphire_block"
+    },
+    "z": {
+      "item": "minecraft:stone"
+    }
+  },
+  "pattern": [
+    "szs",
+    "szs",
+    "   "
+  ],
+  "result": {
+    "count": 9,
+    "item": "crazyness:sapphire_wall"
+  },
+  "show_notification": true
+}

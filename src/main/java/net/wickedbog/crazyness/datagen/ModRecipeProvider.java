@@ -104,6 +104,56 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.URANIUM_INGOT.get()), has(ModItems.URANIUM_INGOT.get()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_SLAB.get(), 9)
+                .pattern("   ")
+                .pattern("sss")
+                .pattern("   ")
+                .define('s', ModBlocks.SAPPHIRE_BLOCK.get())
+                .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_WALL.get(), 9)
+                .pattern("szs")
+                .pattern("szs")
+                .pattern("   ")
+                .define('s', ModBlocks.SAPPHIRE_BLOCK.get())
+                .define('z', Blocks.STONE)
+                .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_FENCE_GATE.get(), 3)
+                .pattern("szs")
+                .pattern("szs")
+                .pattern("   ")
+                .define('s', Items.STICK)
+                .define('z', ModBlocks.SAPPHIRE_BLOCK.get())
+                .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_FENCE.get(), 5)
+                .pattern("szs")
+                .pattern("szs")
+                .pattern("   ")
+                .define('z', Items.STICK)
+                .define('s', ModBlocks.SAPPHIRE_BLOCK.get())
+                .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_DOOR.get(), 3)
+                .pattern("ss ")
+                .pattern("ss ")
+                .pattern("ss ")
+                .define('s', ModBlocks.SAPPHIRE_BLOCK.get())
+                .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_PRESSURE_PLATE.get(), 1)
+                .pattern("ss ")
+                .pattern("   ")
+                .pattern("   ")
+                .define('s', ModBlocks.SAPPHIRE_SLAB.get())
+                .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+                .save(pWriter);
 
         //Shapeless
 
@@ -132,6 +182,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModItems.SAPPHIRE.get())
                 .requires(Items.IRON_INGOT)
                 .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.SAPPHIRE_BUTTON.get())
+                .requires(ModBlocks.SAPPHIRE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
                 .save(pWriter);
 
     }

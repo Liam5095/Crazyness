@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "szs",
+    "szs"
+  ],
+  "key": {
+    "z": {
+      "item": "crazyness:sapphire_block"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "crazyness:sapphire_wall",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "szs",
+    "szs"
+  ],
+  "key": {
+    "z": {
+      "item": "crazyness:sapphire_block"
+    },
+    "s": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "crazyness:sapphire_fence_gate",
+    "count": 1
+  }
+}
