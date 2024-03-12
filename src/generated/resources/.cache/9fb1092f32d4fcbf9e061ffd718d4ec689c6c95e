@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-12T16:42:31.4557339	Recipes
+// 1.20.1	2024-03-12T19:30:22.1605533	Recipes
 d9267aa07170d0ed1623f8600383db2fba34d9f8 data/crazyness/advancements/recipes/misc/explosive_apple.json
 f08839c729efbd6d2188a586fabd8d3b383854c8 data/crazyness/advancements/recipes/misc/metal_detector.json
 6897e76feb306c4aebcc5dc319f450694f6cbcb8 data/crazyness/advancements/recipes/misc/radioactive_coal.json
@@ -25,6 +25,7 @@ a3f6399779fdff0ef0a596c58acf2cd1332a08f0 data/crazyness/advancements/recipes/mis
 e41434643c544c20cd0b79cdaf0a906f2c74092a data/crazyness/advancements/recipes/misc/sapphire_ingot.json
 21ea05523d1810d5ddc12f5b70f6a624c653ab05 data/crazyness/advancements/recipes/misc/sapphire_pressure_plate.json
 d9699ed3ee5b143ae9f5156971a02539373e537b data/crazyness/advancements/recipes/misc/sapphire_slab.json
+f98ccab045fa41af8da378dc1be0ab3808d4f79f data/crazyness/advancements/recipes/misc/sapphire_staff.json
 ffbac0219c201800dd38129dd02878b16ac0668e data/crazyness/advancements/recipes/misc/sapphire_wall.json
 402cadd4f3f5eda63e28d8c6e911363c3459fb2d data/crazyness/advancements/recipes/misc/sound_block.json
 f3dbd5b5f83e4ad89d83e4703a2f00ec8c1c8e5b data/crazyness/advancements/recipes/misc/uranium_block.json
@@ -57,6 +58,7 @@ bc348181bcfd6677b725a674d89cbb97f448e694 data/crazyness/recipes/sapphire_from_sm
 12c49e06de1c1906751f4f17008484e52b86f549 data/crazyness/recipes/sapphire_ingot.json
 8cd8d9e1802d954d3d3768069c49fac1f1ad382b data/crazyness/recipes/sapphire_pressure_plate.json
 9b2e4f29b9d4a69718579622b60ce743b6a9131d data/crazyness/recipes/sapphire_slab.json
+eb42f12a3830c9c5e7a6dc645f27902ab4f5bf80 data/crazyness/recipes/sapphire_staff.json
 d8374f93ea4a4969c6898aa3f30421e8c368ad0a data/crazyness/recipes/sapphire_wall.json
 0a531af68c82b38c9d1f0604929b02ded0a02bcb data/crazyness/recipes/sound_block.json
 95703dda2f55ffdb6b7a4ee48bfddcdea20cd06a data/crazyness/recipes/uranium_block.json

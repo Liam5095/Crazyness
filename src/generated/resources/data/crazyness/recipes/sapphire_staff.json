@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "crazyness:sapphire"
+    }
+  },
+  "pattern": [
+    " S ",
+    "D/D",
+    " / "
+  ],
+  "result": {
+    "item": "crazyness:sapphire_staff"
+  },
+  "show_notification": true
+}
