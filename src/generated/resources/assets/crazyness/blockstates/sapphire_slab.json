@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "crazyness:block/sapphire_slab"
+    },
+    "type=double": {
+      "model": "crazyness:block/sapphire_block"
+    },
+    "type=top": {
+      "model": "crazyness:block/sapphire_slab_top"
+    }
+  }
+}

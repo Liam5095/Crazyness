@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "crazyness:block/sapphire_block",
+    "side": "crazyness:block/sapphire_block",
+    "top": "crazyness:block/sapphire_block"
+  }
+}

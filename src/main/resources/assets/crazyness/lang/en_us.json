@@ -18,6 +18,17 @@
 
   "creativetab.crazyness_tab": "Crazyness Tab",
 
+  "block.crazyness.sapphire_stairs": "Sapphire Stairs",
+  "block.crazyness.sapphire_slab": "Sapphire Slab",
+  "block.crazyness.sapphire_button": "Sapphire Button",
+  "block.crazyness.sapphire_pressure_plate": "Sapphire Pressure Plate",
+  "block.crazyness.sapphire_fence": "Sapphire Fence",
+  "block.crazyness.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.crazyness.sapphire_door": "Sapphire Door",
+  "block.crazyness.sapphire_trapdoor": "Sapphire Trapdoor",
+  "block.crazyness.sapphire_wall": "Sapphire Wall",
+
+
   "block.crazyness.sapphire_block": "Sapphire Block",
   "block.crazyness.raw_sapphire_block": "Raw Sapphire Block",
   "block.crazyness.uranium_block": "Uranium Block",

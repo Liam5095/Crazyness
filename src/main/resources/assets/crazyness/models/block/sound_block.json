@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "north": "crazyness:block/note_block",
+    "east": "crazyness:block/note_block",
+    "south": "crazyness:block/note_block",
+    "west": "crazyness:block/note_block",
+    "down": "crazyness:block/note_block",
+    "up": "crazyness:block/speaker"
+  }
+}

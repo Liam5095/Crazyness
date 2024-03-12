@@ -7,6 +7,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
@@ -67,4 +68,5 @@ public class MetalDetectorItem extends Item {
     private boolean isValuableBlock(BlockState state) {
         return state.is(ModTags.Blocks.METAL_DETECTOR_VALUABLES);
     }
+
 }

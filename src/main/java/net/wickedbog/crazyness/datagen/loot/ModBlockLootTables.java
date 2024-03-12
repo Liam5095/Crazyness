@@ -47,6 +47,19 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.URANIUM_ORE.get(),
                 block -> createUraniumOreDrops(ModBlocks.URANIUM_ORE.get()));
 
+        this.dropSelf(ModBlocks.SAPPHIRE_STAIRS.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_BUTTON.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_FENCE.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_WALL.get());
+
+        this.add(ModBlocks.SAPPHIRE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.SAPPHIRE_SLAB.get()));
+        this.add(ModBlocks.SAPPHIRE_DOOR.get(),
+                block -> createDoorTable(ModBlocks.SAPPHIRE_DOOR.get()));
+
         //CUSTOM ORE DROP EXAMPLE
         //First prop is block second prop is drop third prop is min drops and fourth prop is max drop
         //createCustomOreDrop(ModBlocks.EXAMPLE_BLOCK.get(),ModItems.EXAMPLE_ITEM.get(), 1.0F,3.0F)

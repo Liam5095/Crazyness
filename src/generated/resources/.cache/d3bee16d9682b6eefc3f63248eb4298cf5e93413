@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-11T15:53:05.4481793	Item Models: crazyness
+// 1.20.1	2024-03-12T15:47:00.8083973	Item Models: crazyness
 5f0ce422c50d9648ca469b30a3e54b8f9e78a5a7 assets/crazyness/models/item/cheese.json
 ae5a3a6413f6ab22cd8920ba76e6db29b0b14ceb assets/crazyness/models/item/discodip.json
 373aa9608e3d6c6c14a4ef653c627d2c1d5f88d9 assets/crazyness/models/item/explosive_apple.json
@@ -10,7 +10,16 @@ a8275991816c98d061cb11cd84d6e41565ecd430 assets/crazyness/models/item/pine_cone.
 a7123acf3d02d9e0b23bfbcd3b509ed66a4e57c1 assets/crazyness/models/item/radioactive_coal.json
 684a33137ac936fb6fe5d5e54d74353b15426aa0 assets/crazyness/models/item/raw_sapphire.json
 a294daa819586669d5ccc9c9ee908c41fa52ffbc assets/crazyness/models/item/sapphire.json
+1362df2cbad46cafbb0c6b5d2ecf34fdc6f2f840 assets/crazyness/models/item/sapphire_button.json
+34b7cd11149174140a88e1c3b7f63548c9f48bbb assets/crazyness/models/item/sapphire_door.json
+10408fbb8dbb11bbbed83b59ef9961f65dc06ea9 assets/crazyness/models/item/sapphire_fence.json
+e7dd964814fde13deb12bf2f6dcf883f74f25f4d assets/crazyness/models/item/sapphire_fence_gate.json
 d038e2a8154f3a9840eefa4134f03c2081e56343 assets/crazyness/models/item/sapphire_ingot.json
+18fc92823dc9a5dade85a4868333e7b78172896e assets/crazyness/models/item/sapphire_pressure_plate.json
+4a36c773b8ac329bb1d1ddc9bfdb082a46102746 assets/crazyness/models/item/sapphire_slab.json
+1274fdd4cb25aae1fa9b7dc7154e384e31c788c2 assets/crazyness/models/item/sapphire_stairs.json
+938fdf50a1a1df932ff7edde4831189b56fea370 assets/crazyness/models/item/sapphire_trapdoor.json
+2268b448907a07d4735915d477ed89c0ed7bfcc6 assets/crazyness/models/item/sapphire_wall.json
 6c0b51712c464336cdaa79682c263e6b3772a42b assets/crazyness/models/item/sparerib.json
 5ff2117dc6a7c8d296a7caa2fad6dde73952a787 assets/crazyness/models/item/strawberry.json
 33b4804310f580bd29787319a241badf21d70685 assets/crazyness/models/item/uranium_ingot.json
