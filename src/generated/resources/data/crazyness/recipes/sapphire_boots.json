@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "crazyness:sapphire"
+    }
+  },
+  "pattern": [
+    "   ",
+    "S S",
+    "S S"
+  ],
+  "result": {
+    "item": "crazyness:sapphire_boots"
+  },
+  "show_notification": true
+}
