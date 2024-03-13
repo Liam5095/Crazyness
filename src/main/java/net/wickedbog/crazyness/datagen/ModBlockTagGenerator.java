@@ -23,27 +23,40 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
-                .add(ModBlocks.SAPPHIRE_ORE.get()).add(Blocks.IRON_ORE).add(Blocks.DEEPSLATE_IRON_ORE).add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get())
+                .add(ModBlocks.SAPPHIRE_ORE.get())
+                .add(Blocks.IRON_ORE).add(Blocks.DEEPSLATE_IRON_ORE)
+                .add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get())
                 .add(Blocks.RAW_IRON_BLOCK);
 
         this.tag(BlockTags.NEEDS_IRON_TOOL).add(ModBlocks.SAPPHIRE_ORE.get()).add(ModBlocks.SAPPHIRE_BLOCK.get())
                 .add(ModBlocks.RAW_SAPPHIRE_BLOCK.get()).add(ModBlocks.NETHER_SAPPHIRE_ORE.get())
                 .add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
 
-        this.tag(BlockTags.NEEDS_DIAMOND_TOOL).add(ModBlocks.END_STONE_SAPPHIRE_ORE.get()).add(ModBlocks.URANIUM_ORE.get())
+        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.END_STONE_SAPPHIRE_ORE.get())
+                .add(ModBlocks.URANIUM_ORE.get())
                 .add(ModBlocks.URANIUM_BLOCK.get());
 
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL);
+
         this.tag(Tags.Blocks.NEEDS_WOOD_TOOL);
+
         this.tag(Tags.Blocks.NEEDS_GOLD_TOOL);
 
         this.tag(BlockTags.MINEABLE_WITH_AXE);
+
         this.tag(BlockTags.MINEABLE_WITH_HOE);
-        this.tag(BlockTags.MINEABLE_WITH_PICKAXE);
-        this.tag(BlockTags.MINEABLE_WITH_SHOVEL).add(ModBlocks.SAPPHIRE_BLOCK.get()).add(ModBlocks.RAW_SAPPHIRE_BLOCK.get())
-                .add(ModBlocks.SAPPHIRE_ORE.get()).add(ModBlocks.NETHER_SAPPHIRE_ORE.get())
-                .add(ModBlocks.END_STONE_SAPPHIRE_ORE.get()).add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get())
-                .add(ModBlocks.URANIUM_BLOCK.get()).add(ModBlocks.URANIUM_ORE.get());
+
+        this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .add(ModBlocks.SAPPHIRE_BLOCK.get())
+                .add(ModBlocks.RAW_SAPPHIRE_BLOCK.get())
+                .add(ModBlocks.SAPPHIRE_ORE.get())
+                .add(ModBlocks.NETHER_SAPPHIRE_ORE.get())
+                .add(ModBlocks.END_STONE_SAPPHIRE_ORE.get())
+                .add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get())
+                .add(ModBlocks.URANIUM_BLOCK.get())
+                .add(ModBlocks.URANIUM_ORE.get());
+        this.tag(BlockTags.MINEABLE_WITH_SHOVEL);
 
         this.tag(BlockTags.NEEDS_STONE_TOOL);
 
@@ -55,5 +68,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(BlockTags.WALLS)
                 .add(ModBlocks.SAPPHIRE_WALL.get());
+
+        this.tag(ModTags.Blocks.NEEDS_SAPPHIRE_TOOL);
+
     }
 }

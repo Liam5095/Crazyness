@@ -43,5 +43,16 @@
   "block.crazyness.sound_block": "Sound Block",
 
   "tooltip.crazyness.metal_detector": "Finds valuables underground!",
-  "tooltip.crazyness.sound_block": "Plays the wither death sound effect to prank your friends!"
+  "tooltip.crazyness.sound_block": "Plays the wither death sound effect to prank your friends!",
+
+  "item.crazyness.sapphire_sword": "Sapphire Sword",
+  "item.crazyness.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.crazyness.sapphire_axe": "Sapphire Axe",
+  "item.crazyness.sapphire_shovel": "Sapphire Shovel",
+  "item.crazyness.sapphire_hoe": "Sapphire Hoe",
+
+  "item.crazyness.sapphire_helmet": "Sapphire Helmet",
+  "item.crazyness.sapphire_chestplate": "Sapphire Chestplate",
+  "item.crazyness.sapphire_leggings": "Sapphire Leggings",
+  "item.crazyness.sapphire_boots": "Sapphire Boots"
 }

@@ -1,3 +1,12 @@
 {
-  "values": []
+  "values": [
+    "crazyness:sapphire_block",
+    "crazyness:raw_sapphire_block",
+    "crazyness:sapphire_ore",
+    "crazyness:nether_sapphire_ore",
+    "crazyness:end_stone_sapphire_ore",
+    "crazyness:deepslate_sapphire_ore",
+    "crazyness:uranium_block",
+    "crazyness:uranium_ore"
+  ]
 }
