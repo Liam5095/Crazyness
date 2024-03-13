@@ -11,6 +11,7 @@ import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition;
 import net.minecraftforge.common.data.GlobalLootModifierProvider;
 import net.minecraftforge.common.loot.LootTableIdCondition;
+import net.wickedbog.crazyness.loot.AddSusSandItemModifier;
 
 public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
     public ModGlobalLootModifiersProvider(PackOutput output) {
@@ -33,7 +34,10 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
 
         add("metal_detector_from_jungle_temples", new AddItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/jungle_temple")).build(),
-        LootItemRandomChanceCondition.randomChance(0.35f).build()}, ModItems.METAL_DETECTOR.get()));
+                LootItemRandomChanceCondition.randomChance(0.35f).build()}, ModItems.METAL_DETECTOR.get()));
+
+        add("metal_detector_from_sus_sand", new AddSusSandItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("archaeology/desert_pyramid")).build()}, ModItems.METAL_DETECTOR.get()));
 
 
     }
