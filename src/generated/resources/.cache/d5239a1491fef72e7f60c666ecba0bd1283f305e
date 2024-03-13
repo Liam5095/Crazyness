@@ -1,0 +1,6 @@
+// 1.20.1	2024-03-13T18:51:32.0447484	Global Loot Modifiers : crazyness
+7d00e294f546eaff0c25b1495fcf9c12955f1a31 data/crazyness/loot_modifiers/metal_detector_from_jungle_temples.json
+be1b7db0c6e1203f1c7b9f0d7afd0c305ced6209 data/crazyness/loot_modifiers/pine_cone_from_creeper.json
+41db8272a86b513438a63d90c3ca5ec68cf3949c data/crazyness/loot_modifiers/pine_cone_from_grass.json
+0109b5e9b606a45220eb0f755e179286c9bab37e data/crazyness/loot_modifiers/sapphire_from_zombie.json
+cf4dcacff50d21542868981c9027046fad1c78a4 data/forge/loot_modifiers/global_loot_modifiers.json
