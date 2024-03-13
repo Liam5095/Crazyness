@@ -8,6 +8,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.wickedbog.crazyness.crazyness;
 import net.wickedbog.crazyness.item.custom.FuelItem;
 import net.wickedbog.crazyness.item.custom.MetalDetectorItem;
+import net.wickedbog.crazyness.item.custom.ModArmorItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -73,7 +74,7 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.SAPPHIRE, 0, 0, new Item.Properties()));
 
     public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
-            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate",
             () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings",
