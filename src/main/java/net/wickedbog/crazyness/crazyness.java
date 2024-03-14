@@ -18,6 +18,7 @@ import net.wickedbog.crazyness.block.ModBlocks;
 import net.wickedbog.crazyness.item.ModCreativeModeTabs;
 import net.wickedbog.crazyness.item.ModItems;
 import net.wickedbog.crazyness.loot.ModLootModifiers;
+import net.wickedbog.crazyness.villager.ModVillagers;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -39,6 +40,7 @@ public class crazyness
         ModBlocks.register(modEventBus);
 
         ModLootModifiers.register(modEventBus);
+        ModVillagers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

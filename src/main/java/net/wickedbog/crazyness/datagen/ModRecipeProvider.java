@@ -108,7 +108,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("   ")
                 .pattern("sss")
                 .pattern("   ")
-                .define('s', ModBlocks.SAPPHIRE_BLOCK.get())
+                .define('s', ModItems.SAPPHIRE.get())
                 .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
                 .save(pWriter);
 
@@ -116,7 +116,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("szs")
                 .pattern("szs")
                 .pattern("   ")
-                .define('s', ModBlocks.SAPPHIRE_BLOCK.get())
+                .define('s', ModItems.SAPPHIRE.get())
                 .define('z', Blocks.STONE)
                 .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
                 .save(pWriter);
@@ -126,7 +126,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("szs")
                 .pattern("   ")
                 .define('s', Items.STICK)
-                .define('z', ModBlocks.SAPPHIRE_BLOCK.get())
+                .define('z', ModItems.SAPPHIRE.get())
                 .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
                 .save(pWriter);
 
@@ -135,7 +135,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("szs")
                 .pattern("   ")
                 .define('z', Items.STICK)
-                .define('s', ModBlocks.SAPPHIRE_BLOCK.get())
+                .define('s', ModItems.SAPPHIRE.get())
                 .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
                 .save(pWriter);
 
@@ -143,7 +143,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("ss ")
                 .pattern("ss ")
                 .pattern("ss ")
-                .define('s', ModBlocks.SAPPHIRE_BLOCK.get())
+                .define('s', ModItems.SAPPHIRE.get())
                 .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
                 .save(pWriter);
 
@@ -151,7 +151,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("ss ")
                 .pattern("   ")
                 .pattern("   ")
-                .define('s', ModBlocks.SAPPHIRE_SLAB.get())
+                .define('s', ModItems.SAPPHIRE.get())
                 .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
                 .save(pWriter);
 

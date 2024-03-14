@@ -7,11 +7,11 @@
   ],
   "key": {
     "s": {
-      "item": "crazyness:sapphire_block"
+      "item": "crazyness:sapphire"
     }
   },
   "result": {
-    "item": "crazyness:sapphire_slab",
+    "item": "crazyness:sapphire_door",
     "count": 1
   }
 }
