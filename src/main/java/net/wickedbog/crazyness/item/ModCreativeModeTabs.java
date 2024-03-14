@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModItems.CHEESE.get()))
                     .title(Component.translatable("creativetab.crazyness_tab"))
+                    .withSearchBar()
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
@@ -59,6 +60,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.SAPPHIRE_BOOTS.get());
 
                         pOutput.accept(ModItems.STRAWBERRY_SEEDS.get());
+                        pOutput.accept(ModItems.CORN_SEEDS.get());
+                        pOutput.accept(ModItems.CORN.get());
 
                         pOutput.accept(ModBlocks.SAPPHIRE_STAIRS.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_SLAB.get());

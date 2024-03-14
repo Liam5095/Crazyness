@@ -18,6 +18,7 @@ import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 import net.minecraftforge.registries.RegistryObject;
 import net.wickedbog.crazyness.block.ModBlocks;
+import net.wickedbog.crazyness.block.custom.CornCropBlock;
 import net.wickedbog.crazyness.block.custom.StrawberryCropBlock;
 import net.wickedbog.crazyness.item.ModItems;
 
@@ -70,6 +71,20 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.add(ModBlocks.STRAWBERRY_CROP.get(), createCropDrops(ModBlocks.STRAWBERRY_CROP.get(), ModItems.STRAWBERRY.get(),
                 ModItems.STRAWBERRY_SEEDS.get(), lootitemcondition$builder));
+
+        LootItemCondition.Builder lootitemcondition$builder2 = LootItemBlockStatePropertyCondition
+                .hasBlockStateProperties(ModBlocks.CORN_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CornCropBlock.AGE, 7))
+                .or(LootItemBlockStatePropertyCondition
+                        .hasBlockStateProperties(ModBlocks.CORN_CROP.get())
+                        .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CornCropBlock.AGE, 8)));
+
+        this.add(ModBlocks.CORN_CROP.get(), createCropDrops(ModBlocks.CORN_CROP.get(), ModItems.CORN.get(),
+                ModItems.CORN_SEEDS.get(), lootitemcondition$builder2));
+
+        // LootItemCondition.Builder lootitemcondition$builder2 = LootItemBlockStatePropertyCondition
+        //         .hasBlockStateProperties(ModBlocks.CORN_CROP.get())
+        //         .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CornCropBlock.AGE, 8));
 
         //CUSTOM ORE DROP EXAMPLE
         //First prop is block second prop is drop third prop is min drops and fourth prop is max drop
