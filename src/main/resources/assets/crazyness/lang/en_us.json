@@ -51,7 +51,7 @@
   "tooltip.crazyness.metal_detector": "Finds valuables underground!",
   "tooltip.crazyness.sound_block": "Plays the wither death sound effect to prank your friends!",
 
-  "entity.minecraft.villager.crazyness.soundmaster": "Sound Master",
+  "entity.minecraft.villager.crazyness.sound_master": "Sound Master",
 
   "item.crazyness.sapphire_sword": "Sapphire Sword",
   "item.crazyness.sapphire_pickaxe": "Sapphire Pickaxe",
