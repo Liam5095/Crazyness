@@ -1,5 +1,6 @@
 package net.wickedbog.crazyness.datagen.loot;
 
+import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
@@ -12,9 +13,12 @@ import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
+import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
+import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 import net.minecraftforge.registries.RegistryObject;
 import net.wickedbog.crazyness.block.ModBlocks;
+import net.wickedbog.crazyness.block.custom.StrawberryCropBlock;
 import net.wickedbog.crazyness.item.ModItems;
 
 import java.util.Set;
@@ -59,6 +63,13 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createSlabItemTable(ModBlocks.SAPPHIRE_SLAB.get()));
         this.add(ModBlocks.SAPPHIRE_DOOR.get(),
                 block -> createDoorTable(ModBlocks.SAPPHIRE_DOOR.get()));
+
+        LootItemCondition.Builder lootitemcondition$builder = LootItemBlockStatePropertyCondition
+                .hasBlockStateProperties(ModBlocks.STRAWBERRY_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(StrawberryCropBlock.AGE, 5));
+
+        this.add(ModBlocks.STRAWBERRY_CROP.get(), createCropDrops(ModBlocks.STRAWBERRY_CROP.get(), ModItems.STRAWBERRY.get(),
+                ModItems.STRAWBERRY_SEEDS.get(), lootitemcondition$builder));
 
         //CUSTOM ORE DROP EXAMPLE
         //First prop is block second prop is drop third prop is min drops and fourth prop is max drop

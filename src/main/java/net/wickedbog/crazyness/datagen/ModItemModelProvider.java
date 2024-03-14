@@ -56,6 +56,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RAW_SAPPHIRE);
         simpleItem(ModItems.RADIOACTIVE_COAL);
         simpleItem(ModItems.URANIUM_INGOT);
+        simpleItem(ModItems.STRAWBERRY_SEEDS);
 
         simpleBlockItem(ModBlocks.SAPPHIRE_DOOR);
 

@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-12T15:47:00.8058756	Loot Tables
+// 1.20.1	2024-03-13T19:35:56.7475088	Loot Tables
 9cf9a932223101d5ea13bad546a6a5dce4add4fa data/crazyness/loot_tables/blocks/deepslate_sapphire_ore.json
 862b8c3ff1b01ca12fec04a2980a5e3a37311953 data/crazyness/loot_tables/blocks/end_stone_sapphire_ore.json
 22c8723c9d267873cafd11c66fd4bd28cafada2e data/crazyness/loot_tables/blocks/nether_sapphire_ore.json
@@ -15,5 +15,6 @@ b76ab17959b09a5790fd74b96d9d364632446f64 data/crazyness/loot_tables/blocks/sapph
 ee073b7ac100b46c46f22c484225ac18ed3a1cdc data/crazyness/loot_tables/blocks/sapphire_trapdoor.json
 137460c43437198a3abd3c09b149089dc6f19cc2 data/crazyness/loot_tables/blocks/sapphire_wall.json
 20691dd9a1e2b7b71927e99f40f2cb8594835704 data/crazyness/loot_tables/blocks/sound_block.json
+300d6690ce9cd0154a695a72ecd991485687ee18 data/crazyness/loot_tables/blocks/strawberry_crop.json
 1605d43f62d67d7fa87112fc283088d0e90920dc data/crazyness/loot_tables/blocks/uranium_block.json
 f744c266daf83f7e2a93b0af38c39398ec1fbdb6 data/crazyness/loot_tables/blocks/uranium_ore.json

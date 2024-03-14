@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-13T16:57:48.5922862	Item Models: crazyness
+// 1.20.1	2024-03-13T19:35:56.7500557	Item Models: crazyness
 5f0ce422c50d9648ca469b30a3e54b8f9e78a5a7 assets/crazyness/models/item/cheese.json
 ae5a3a6413f6ab22cd8920ba76e6db29b0b14ceb assets/crazyness/models/item/discodip.json
 373aa9608e3d6c6c14a4ef653c627d2c1d5f88d9 assets/crazyness/models/item/explosive_apple.json
@@ -71,4 +71,5 @@ abc91eca9e82da98a33791a11af7d659a9c5e05f assets/crazyness/models/item/sapphire_s
 2268b448907a07d4735915d477ed89c0ed7bfcc6 assets/crazyness/models/item/sapphire_wall.json
 6c0b51712c464336cdaa79682c263e6b3772a42b assets/crazyness/models/item/sparerib.json
 5ff2117dc6a7c8d296a7caa2fad6dde73952a787 assets/crazyness/models/item/strawberry.json
+8f9fed849c4bb0bf75252d8e54fe4dc15f706749 assets/crazyness/models/item/strawberry_seeds.json
 33b4804310f580bd29787319a241badf21d70685 assets/crazyness/models/item/uranium_ingot.json

@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-12T15:47:00.8093951	Block States: crazyness
+// 1.20.1	2024-03-13T19:35:56.751568	Block States: crazyness
 68171d19e5d54461984e3288eff58c005ac29528 assets/crazyness/blockstates/deepslate_sapphire_ore.json
 824570373aa211b2f9488549e62a8f0769a63d4c assets/crazyness/blockstates/end_stone_sapphire_ore.json
 cc4f91327f8ef6298673680b309621ec32c45d56 assets/crazyness/blockstates/nether_sapphire_ore.json
@@ -14,6 +14,7 @@ c25756812c93b3b0a6cc491554df902dda5d2363 assets/crazyness/blockstates/sapphire_o
 f422e195823d64ecd1bf7d51d629879e4bc9c135 assets/crazyness/blockstates/sapphire_stairs.json
 b0e3c958ea759045f0b1976f8c63e1b602982953 assets/crazyness/blockstates/sapphire_trapdoor.json
 23fab6fc287540470f2fc5449ca06cbd5f6186c3 assets/crazyness/blockstates/sapphire_wall.json
+01213e5d5975c09d653926ca28be2f814803ad48 assets/crazyness/blockstates/strawberry_crop.json
 1ab36b6c477f5402eabc893564381f9f4026d456 assets/crazyness/blockstates/uranium_block.json
 67199e9509f77bea19769fe3df88760d01a54965 assets/crazyness/blockstates/uranium_ore.json
 71f90c920531f98f8b24a7c2d6d223f85f5b84f5 assets/crazyness/models/block/deepslate_sapphire_ore.json
@@ -51,6 +52,12 @@ c61902155c0babb3a7c961da88940dd74bc95aff assets/crazyness/models/block/sapphire_
 f18f423b4562d49a6144a0ca051cff4a36d53ea6 assets/crazyness/models/block/sapphire_wall_post.json
 872be59136871d000a28b59754987d4a8bb03519 assets/crazyness/models/block/sapphire_wall_side.json
 9db2b0f7369e4826066311a5e22bc297edc39fd7 assets/crazyness/models/block/sapphire_wall_side_tall.json
+912302df12754f6b14f92e3431d7cc65d209419c assets/crazyness/models/block/strawberry_stage0.json
+61211088f46739dd904f860eca0a444989a05c18 assets/crazyness/models/block/strawberry_stage1.json
+269c7dc23e7b33f623e3c3fb4a28d961f864ae9d assets/crazyness/models/block/strawberry_stage2.json
+97ec1ec2e7143f1240ccd622debe762e07d0ae9b assets/crazyness/models/block/strawberry_stage3.json
+1d83c5d5b2920d9b6027c4927847cc64d9fc994c assets/crazyness/models/block/strawberry_stage4.json
+13131524b07e13b4dd064d7209be4a245118df0b assets/crazyness/models/block/strawberry_stage5.json
 73615515dedb740dfd85cf94a0efc5a7f223c4b0 assets/crazyness/models/block/uranium_block.json
 5d8c1be4c960ae1333adbf8b9a155b17df43bb83 assets/crazyness/models/block/uranium_ore.json
 243989406714b4fa850e4fc34a3438d697fc90f6 assets/crazyness/models/item/deepslate_sapphire_ore.json
