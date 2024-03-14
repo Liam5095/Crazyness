@@ -90,7 +90,7 @@ public class ModItems {
             () -> new ItemNameBlockItem(ModBlocks.CORN_CROP.get(), new Item.Properties()));
 
     public static final RegistryObject<Item> CORN = ITEMS.register("corn",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(ModFoods.CORN)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
