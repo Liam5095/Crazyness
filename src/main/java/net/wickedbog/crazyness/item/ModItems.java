@@ -1,15 +1,18 @@
 package net.wickedbog.crazyness.item;
 
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.wickedbog.crazyness.block.ModBlocks;
 import net.wickedbog.crazyness.crazyness;
+import net.wickedbog.crazyness.entity.ModEntities;
 import net.wickedbog.crazyness.item.custom.FuelItem;
 import net.wickedbog.crazyness.item.custom.MetalDetectorItem;
 import net.wickedbog.crazyness.item.custom.ModArmorItem;
+import net.wickedbog.crazyness.sound.ModSounds;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -91,6 +94,12 @@ public class ModItems {
 
     public static final RegistryObject<Item> CORN = ITEMS.register("corn",
             () -> new Item(new Item.Properties().food(ModFoods.CORN)));
+
+    public static final RegistryObject<Item> BAR_BRAWL_MUSIC_DISC = ITEMS.register("bar_brawl_music_disc",
+            () -> new RecordItem(6, ModSounds.BAR_BRAWL, new Item.Properties().stacksTo(1), 2440));
+
+    public static final RegistryObject<Item> RHINO_SPAWN_EGG = ITEMS.register("rhino_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.RHINO, 0x7e9680, 0xc5d1c5, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

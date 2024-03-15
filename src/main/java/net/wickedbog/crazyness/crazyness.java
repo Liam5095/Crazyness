@@ -1,6 +1,7 @@
 package net.wickedbog.crazyness;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
@@ -15,9 +16,12 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.wickedbog.crazyness.block.ModBlocks;
+import net.wickedbog.crazyness.entity.ModEntities;
+import net.wickedbog.crazyness.entity.client.RhinoRenderer;
 import net.wickedbog.crazyness.item.ModCreativeModeTabs;
 import net.wickedbog.crazyness.item.ModItems;
 import net.wickedbog.crazyness.loot.ModLootModifiers;
+import net.wickedbog.crazyness.sound.ModSounds;
 import net.wickedbog.crazyness.villager.ModVillagers;
 import org.slf4j.Logger;
 
@@ -41,6 +45,9 @@ public class crazyness
 
         ModLootModifiers.register(modEventBus);
         ModVillagers.register(modEventBus);
+
+        ModSounds.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -71,9 +78,8 @@ public class crazyness
     public static class ClientModEvents
     {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event)
-        {
-
+        public static void onClientSetup(FMLClientSetupEvent event) {
+            EntityRenderers.register(ModEntities.RHINO.get(), RhinoRenderer::new);
         }
     }
 }

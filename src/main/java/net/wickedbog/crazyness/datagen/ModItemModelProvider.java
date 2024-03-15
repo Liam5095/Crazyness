@@ -58,6 +58,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.URANIUM_INGOT);
         simpleItem(ModItems.STRAWBERRY_SEEDS);
 
+        simpleItem(ModItems.BAR_BRAWL_MUSIC_DISC);
+
         simpleItem(ModItems.CORN);
         simpleItem(ModItems.CORN_SEEDS);
 
@@ -86,6 +88,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.SAPPHIRE_BOOTS);
 
         simpleBlockItemBlockTexture(ModBlocks.CATMINT);
+
+        withExistingParent(ModItems.RHINO_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
     // Shoutout to El_Redstoniano for making this!

@@ -17,6 +17,7 @@ import net.wickedbog.crazyness.block.custom.SoundBlock;
 import net.wickedbog.crazyness.block.custom.StrawberryCropBlock;
 import net.wickedbog.crazyness.crazyness;
 import net.wickedbog.crazyness.item.ModItems;
+import net.wickedbog.crazyness.sound.ModSounds;
 
 import java.util.function.Supplier;
 
@@ -47,7 +48,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE)));
 
     public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
-            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)));
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK).sound(ModSounds.SOUND_BLOCK_SOUNDS)));
 
     public static final RegistryObject<Block> SAPPHIRE_STAIRS = registerBlock("sapphire_stairs",
             () -> new StairBlock(() -> ModBlocks.SAPPHIRE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));

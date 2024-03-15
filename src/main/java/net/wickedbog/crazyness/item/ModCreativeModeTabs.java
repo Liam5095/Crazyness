@@ -56,6 +56,10 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModBlocks.CATMINT.get());
 
+                        pOutput.accept(ModItems.BAR_BRAWL_MUSIC_DISC.get());
+
+                        pOutput.accept(ModItems.RHINO_SPAWN_EGG.get());
+
                         pOutput.accept(ModItems.SAPPHIRE_HELMET.get());
                         pOutput.accept(ModItems.SAPPHIRE_CHESTPLATE.get());
                         pOutput.accept(ModItems.SAPPHIRE_LEGGINGS.get());

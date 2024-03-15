@@ -52,6 +52,9 @@
   "tooltip.crazyness.sound_block": "Plays the wither death sound effect to prank your friends!",
 
   "entity.minecraft.villager.crazyness.sound_master": "Sound Master",
+  "entity.crazyness.rhino": "Rhino",
+
+  "item.crazyness.rhino_spawn_egg": "Rhino Spawn Egg",
 
   "item.crazyness.sapphire_sword": "Sapphire Sword",
   "item.crazyness.sapphire_pickaxe": "Sapphire Pickaxe",
@@ -62,5 +65,15 @@
   "item.crazyness.sapphire_helmet": "Sapphire Helmet",
   "item.crazyness.sapphire_chestplate": "Sapphire Chestplate",
   "item.crazyness.sapphire_leggings": "Sapphire Leggings",
-  "item.crazyness.sapphire_boots": "Sapphire Boots"
+  "item.crazyness.sapphire_boots": "Sapphire Boots",
+
+  "item.crazyness.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.crazyness.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+  "sounds.crazyness.metal_detector_found_ore": "Metal Detector Jingle",
+  "sounds.crazyness.sound_block_step": "Stepped On Sound Block",
+  "sounds.crazyness.sound_block_place": "Placed Sound Block",
+  "sounds.crazyness.sound_block_hit": "Hit Sound Block",
+  "sounds.crazyness.sound_block_fall": "Fell On Sound Block",
+  "sounds.crazyness.sound_block_break": "Broke A Sound Block"
 }

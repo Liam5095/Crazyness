@@ -24,5 +24,10 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.SAPPHIRE_BOOTS.get(),
                         ModItems.SAPPHIRE_LEGGINGS.get(),
                         ModItems.SAPPHIRE_CHESTPLATE.get());
+        this.tag(ItemTags.MUSIC_DISCS)
+                .add(ModItems.BAR_BRAWL_MUSIC_DISC.get());
+
+        this.tag(ItemTags.CREEPER_DROP_MUSIC_DISCS)
+                .add(ModItems.BAR_BRAWL_MUSIC_DISC.get());
     }
 }
