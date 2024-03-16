@@ -60,6 +60,8 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModItems.RHINO_SPAWN_EGG.get());
 
+                        pOutput.accept(ModBlocks.GEM_POLISHING_STATION.get());
+
                         pOutput.accept(ModItems.SAPPHIRE_HELMET.get());
                         pOutput.accept(ModItems.SAPPHIRE_CHESTPLATE.get());
                         pOutput.accept(ModItems.SAPPHIRE_LEGGINGS.get());

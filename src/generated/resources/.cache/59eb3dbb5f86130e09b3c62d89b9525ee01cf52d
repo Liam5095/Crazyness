@@ -1,8 +1,9 @@
-// 1.20.1	2024-03-14T16:13:26.9588731	Loot Tables
+// 1.20.1	2024-03-16T10:22:43.51196	Loot Tables
 ed7bb515fa906936785b245cc924b3c07097e4bb data/crazyness/loot_tables/blocks/catmint.json
 66de5393ce636f4edc1fd6632ef7c7f5320713a7 data/crazyness/loot_tables/blocks/corn_crop.json
 9cf9a932223101d5ea13bad546a6a5dce4add4fa data/crazyness/loot_tables/blocks/deepslate_sapphire_ore.json
 862b8c3ff1b01ca12fec04a2980a5e3a37311953 data/crazyness/loot_tables/blocks/end_stone_sapphire_ore.json
+f63a6b8f674996f62f193d7a949c19576cb03689 data/crazyness/loot_tables/blocks/gem_polishing_station.json
 22c8723c9d267873cafd11c66fd4bd28cafada2e data/crazyness/loot_tables/blocks/nether_sapphire_ore.json
 6135ca0b96fe9b4e268234b8cbe36423c7db654e data/crazyness/loot_tables/blocks/potted_catmint.json
 fd5bbeb4ac1827b3cc0332392a520f7a73514804 data/crazyness/loot_tables/blocks/raw_sapphire_block.json

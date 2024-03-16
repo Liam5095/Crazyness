@@ -1,8 +1,9 @@
-// 1.20.1	2024-03-14T16:13:26.9619542	Block States: crazyness
+// 1.20.1	2024-03-16T10:22:43.5144024	Block States: crazyness
 901752dc4ac6376fd5cc081746c4bfa16a188311 assets/crazyness/blockstates/catmint.json
 699f6cb946f0db6d522e087def2307ce47281946 assets/crazyness/blockstates/corn_crop.json
 68171d19e5d54461984e3288eff58c005ac29528 assets/crazyness/blockstates/deepslate_sapphire_ore.json
 824570373aa211b2f9488549e62a8f0769a63d4c assets/crazyness/blockstates/end_stone_sapphire_ore.json
+e7f09ff7e4e594a8dcd9f7ca5230e7dcba34366d assets/crazyness/blockstates/gem_polishing_station.json
 cc4f91327f8ef6298673680b309621ec32c45d56 assets/crazyness/blockstates/nether_sapphire_ore.json
 6bb570a58e8cf48edb05118d265bb9525ed47f6c assets/crazyness/blockstates/potted_catmint.json
 7676fa93a61769060c3840d03d1cbdea89ccd637 assets/crazyness/blockstates/raw_sapphire_block.json
@@ -77,6 +78,7 @@ f18f423b4562d49a6144a0ca051cff4a36d53ea6 assets/crazyness/models/block/sapphire_
 68590d7233ab04324a69f3ccb84332fa261463fc assets/crazyness/models/item/catmint.json
 243989406714b4fa850e4fc34a3438d697fc90f6 assets/crazyness/models/item/deepslate_sapphire_ore.json
 853133935ab3a4806be954d0e8e53e58744ccbe2 assets/crazyness/models/item/end_stone_sapphire_ore.json
+97ad5d85e4a0dccd8a2be79096dae59e3131b00c assets/crazyness/models/item/gem_polishing_station.json
 f8cc70d43727ee1734c273312b0f0f8306b43554 assets/crazyness/models/item/nether_sapphire_ore.json
 0cef06e36a2c7e173495951224991570d7c53e6e assets/crazyness/models/item/potted_catmint.json
 4bfc45ce424bafd69d52657b7f7a2e82d69b3a7a assets/crazyness/models/item/raw_sapphire_block.json

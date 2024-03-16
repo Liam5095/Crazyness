@@ -1,6 +1,7 @@
 package net.wickedbog.crazyness;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
@@ -16,11 +17,15 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.wickedbog.crazyness.block.ModBlocks;
+import net.wickedbog.crazyness.block.entity.ModBlockEntities;
 import net.wickedbog.crazyness.entity.ModEntities;
 import net.wickedbog.crazyness.entity.client.RhinoRenderer;
 import net.wickedbog.crazyness.item.ModCreativeModeTabs;
 import net.wickedbog.crazyness.item.ModItems;
 import net.wickedbog.crazyness.loot.ModLootModifiers;
+import net.wickedbog.crazyness.screen.GemPolishingStationMenu;
+import net.wickedbog.crazyness.screen.GemPolishingStationScreen;
+import net.wickedbog.crazyness.screen.ModMenuTypes;
 import net.wickedbog.crazyness.sound.ModSounds;
 import net.wickedbog.crazyness.villager.ModVillagers;
 import org.slf4j.Logger;
@@ -48,6 +53,9 @@ public class crazyness
 
         ModSounds.register(modEventBus);
         ModEntities.register(modEventBus);
+
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -80,6 +88,8 @@ public class crazyness
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             EntityRenderers.register(ModEntities.RHINO.get(), RhinoRenderer::new);
+
+            MenuScreens.register(ModMenuTypes.GEM_POLISHING_MENU.get(), GemPolishingStationScreen::new);
         }
     }
 }
