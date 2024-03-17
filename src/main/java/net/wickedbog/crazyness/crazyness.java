@@ -23,6 +23,7 @@ import net.wickedbog.crazyness.entity.client.RhinoRenderer;
 import net.wickedbog.crazyness.item.ModCreativeModeTabs;
 import net.wickedbog.crazyness.item.ModItems;
 import net.wickedbog.crazyness.loot.ModLootModifiers;
+import net.wickedbog.crazyness.recipe.ModRecipes;
 import net.wickedbog.crazyness.screen.GemPolishingStationMenu;
 import net.wickedbog.crazyness.screen.GemPolishingStationScreen;
 import net.wickedbog.crazyness.screen.ModMenuTypes;
@@ -56,6 +57,8 @@ public class crazyness
 
         ModBlockEntities.register(modEventBus);
         ModMenuTypes.register(modEventBus);
+
+        ModRecipes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "crazyness:sapphire_button"
+        "recipe": "crazyness:gem_polishing_station"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "crazyness:sapphire_button"
+      "crazyness:gem_polishing_station"
     ]
   },
   "sends_telemetry_event": false

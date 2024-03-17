@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "   ",
-    "szs",
-    "szs"
+    "S  ",
+    "t  ",
+    "t  "
   ],
   "key": {
-    "z": {
+    "S": {
       "item": "crazyness:sapphire"
     },
-    "s": {
-      "item": "minecraft:stone"
+    "t": {
+      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "crazyness:sapphire_fence_gate",
+    "item": "crazyness:sapphire_shovel",
     "count": 1
   }
 }

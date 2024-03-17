@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_sapphire": {
+    "has_sculk_catalyst": {
       "conditions": {
         "items": [
           {
             "items": [
-              "crazyness:sapphire"
+              "minecraft:sculk_catalyst"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "crazyness:sapphire_button"
+        "recipe": "crazyness:shriekalyst"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_sapphire",
+      "has_sculk_catalyst",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "crazyness:sapphire_button"
+      "crazyness:shriekalyst"
     ]
   },
   "sends_telemetry_event": false

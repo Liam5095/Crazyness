@@ -44,9 +44,12 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
                         pOutput.accept(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
-                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                         pOutput.accept(ModBlocks.URANIUM_BLOCK.get());
                         pOutput.accept(ModBlocks.URANIUM_ORE.get());
+
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
+                        pOutput.accept(ModBlocks.REVAMPER.get());
+                        pOutput.accept(ModBlocks.SHRIEKALYST.get());
 
                         pOutput.accept(ModItems.SAPPHIRE_HOE.get());
                         pOutput.accept(ModItems.SAPPHIRE_SWORD.get());

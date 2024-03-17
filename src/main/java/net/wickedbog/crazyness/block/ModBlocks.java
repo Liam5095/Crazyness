@@ -1,6 +1,5 @@
 package net.wickedbog.crazyness.block;
 
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
@@ -12,10 +11,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.wickedbog.crazyness.block.custom.CornCropBlock;
-import net.wickedbog.crazyness.block.custom.GemPolishingStationBlock;
-import net.wickedbog.crazyness.block.custom.SoundBlock;
-import net.wickedbog.crazyness.block.custom.StrawberryCropBlock;
+import net.wickedbog.crazyness.block.custom.*;
 import net.wickedbog.crazyness.crazyness;
 import net.wickedbog.crazyness.item.ModItems;
 import net.wickedbog.crazyness.sound.ModSounds;
@@ -50,6 +46,12 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
             () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK).sound(ModSounds.SOUND_BLOCK_SOUNDS)));
+
+    public static final RegistryObject<Block> REVAMPER = registerBlock("revamper",
+            () -> new Revamper(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)));
+
+    public static final RegistryObject<Block> SHRIEKALYST = registerBlock("shriekalyst",
+            () -> new Shriekalyst(BlockBehaviour.Properties.copy(Blocks.SCULK)));
 
     public static final RegistryObject<Block> SAPPHIRE_STAIRS = registerBlock("sapphire_stairs",
             () -> new StairBlock(() -> ModBlocks.SAPPHIRE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));

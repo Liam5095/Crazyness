@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-16T10:22:43.51196	Loot Tables
+// 1.20.1	2024-03-17T10:13:14.3550542	Loot Tables
 ed7bb515fa906936785b245cc924b3c07097e4bb data/crazyness/loot_tables/blocks/catmint.json
 66de5393ce636f4edc1fd6632ef7c7f5320713a7 data/crazyness/loot_tables/blocks/corn_crop.json
 9cf9a932223101d5ea13bad546a6a5dce4add4fa data/crazyness/loot_tables/blocks/deepslate_sapphire_ore.json
@@ -7,6 +7,7 @@ f63a6b8f674996f62f193d7a949c19576cb03689 data/crazyness/loot_tables/blocks/gem_p
 22c8723c9d267873cafd11c66fd4bd28cafada2e data/crazyness/loot_tables/blocks/nether_sapphire_ore.json
 6135ca0b96fe9b4e268234b8cbe36423c7db654e data/crazyness/loot_tables/blocks/potted_catmint.json
 fd5bbeb4ac1827b3cc0332392a520f7a73514804 data/crazyness/loot_tables/blocks/raw_sapphire_block.json
+b748139fa7285d247e431bec103605aee64901e0 data/crazyness/loot_tables/blocks/revamper.json
 1ed6b6baca7e1fb3da22af86715d44156b50d899 data/crazyness/loot_tables/blocks/sapphire_block.json
 996bd90e632fee923fb98dc542e1634a8d59131a data/crazyness/loot_tables/blocks/sapphire_button.json
 b4ad3ae2387d3681bd360ae87e54c68f489c01ef data/crazyness/loot_tables/blocks/sapphire_door.json
@@ -18,6 +19,7 @@ bf2f7642f79436fad9b4a861da52bbf7f0bdd698 data/crazyness/loot_tables/blocks/sapph
 b76ab17959b09a5790fd74b96d9d364632446f64 data/crazyness/loot_tables/blocks/sapphire_stairs.json
 ee073b7ac100b46c46f22c484225ac18ed3a1cdc data/crazyness/loot_tables/blocks/sapphire_trapdoor.json
 137460c43437198a3abd3c09b149089dc6f19cc2 data/crazyness/loot_tables/blocks/sapphire_wall.json
+a15b8644b30dfcfe15af7901a09058dfb1601182 data/crazyness/loot_tables/blocks/shriekalyst.json
 20691dd9a1e2b7b71927e99f40f2cb8594835704 data/crazyness/loot_tables/blocks/sound_block.json
 300d6690ce9cd0154a695a72ecd991485687ee18 data/crazyness/loot_tables/blocks/strawberry_crop.json
 1605d43f62d67d7fa87112fc283088d0e90920dc data/crazyness/loot_tables/blocks/uranium_block.json

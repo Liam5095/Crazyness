@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " ss",
+    " ss"
+  ],
+  "key": {
+    "s": {
+      "item": "crazyness:sapphire"
+    }
+  },
+  "result": {
+    "item": "crazyness:sapphire_trapdoor",
+    "count": 1
+  }
+}

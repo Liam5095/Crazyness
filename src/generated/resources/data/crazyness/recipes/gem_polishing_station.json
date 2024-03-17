@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "d": {
+      "item": "minecraft:deepslate"
+    },
+    "q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "pattern": [
+    "qdq",
+    "ddd",
+    "qdq"
+  ],
+  "result": {
+    "item": "crazyness:gem_polishing_station"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,12 @@
+{
+  "type": "crazyness:gem_polishing",
+  "ingredients": [
+    {
+      "item": "crazyness:shriekalyst"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "crazyness:revamper"
+  }
+}

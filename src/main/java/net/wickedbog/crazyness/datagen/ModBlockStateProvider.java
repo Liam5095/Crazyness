@@ -57,6 +57,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlockWithItem(ModBlocks.GEM_POLISHING_STATION.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/gem_polishing_station")));
 
+        blockWithItem(ModBlocks.REVAMPER);
+        blockWithItem(ModBlocks.SHRIEKALYST);
+
         //Different textures
         //blockWithItem(ModBlocks.SOUND_BLOCK);
     }

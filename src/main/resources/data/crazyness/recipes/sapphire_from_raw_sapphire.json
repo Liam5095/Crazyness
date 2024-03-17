@@ -1,0 +1,12 @@
+{
+  "type": "crazyness:gem_polishing",
+  "ingredients": [
+    {
+      "item": "crazyness:raw_sapphire"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "crazyness:sapphire"
+  }
+}

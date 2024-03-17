@@ -63,6 +63,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.CATMINT.get());
 
         this.dropSelf(ModBlocks.GEM_POLISHING_STATION.get());
+        this.dropSelf(ModBlocks.REVAMPER.get());
+        this.dropSelf(ModBlocks.SHRIEKALYST.get());
 
         this.add(ModBlocks.POTTED_CATMINT.get(), createPotFlowerItemTable(ModBlocks.CATMINT.get()));
 

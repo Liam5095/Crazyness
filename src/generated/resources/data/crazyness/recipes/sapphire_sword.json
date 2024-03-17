@@ -2,21 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "s": {
+    "S": {
       "item": "crazyness:sapphire"
     },
-    "z": {
-      "item": "minecraft:stone"
+    "t": {
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "   ",
-    "szs",
-    "szs"
+    " S ",
+    " S ",
+    " t "
   ],
   "result": {
-    "count": 9,
-    "item": "crazyness:sapphire_wall"
+    "item": "crazyness:sapphire_sword"
   },
   "show_notification": true
 }
