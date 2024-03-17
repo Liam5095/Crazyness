@@ -52,7 +52,10 @@ public class ModBlocks {
             () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK).sound(ModSounds.SOUND_BLOCK_SOUNDS)));
 
     public static final RegistryObject<Block> REVAMPER = registerBlock("revamper",
-            () -> new Revamper(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)));
+            () -> new Revamper(BlockBehaviour.Properties.copy(Blocks.SCULK)));
+
+    public static final RegistryObject<Block> VISUAL_EFFECT_TESTER = registerBlock("visual_effect_tester",
+            () -> new VisualEffectTester(BlockBehaviour.Properties.copy(Blocks.SCULK)));
 
     public static final RegistryObject<Block> SHRIEKALYST = registerBlock("shriekalyst",
             () -> new Shriekalyst(BlockBehaviour.Properties.copy(Blocks.SCULK).noOcclusion()));

@@ -11,17 +11,17 @@ import team.lodestar.lodestone.systems.particle.data.spin.SpinParticleData;
 
 import java.awt.*;
 
-public class VisualEffectTester {
-    public static void spawnSecondParticle(Level level, Vec3 pos) {
-        Color startingColor = new Color(10, 68, 204);
-        Color endingColor = new Color(10, 152, 204);
-        WorldParticleBuilder.create(LodestoneParticleRegistry.SMOKE_PARTICLE)
-                .setScaleData(GenericParticleData.create(2.5f, 2.5f).build())
+public class VisualEffectTesterEffects {
+    public static void spawnTestParticle(Level level, Vec3 pos) {
+        Color startingColor = new Color(211, 214, 9);
+        Color endingColor = new Color(214, 101, 9);
+        WorldParticleBuilder.create(LodestoneParticleRegistry.STAR_PARTICLE)
+                .setScaleData(GenericParticleData.create(0.5f, 0.5f).build())
                 .setTransparencyData(GenericParticleData.create(0.75f, 0.5f).build())
                 .setColorData(ColorParticleData.create(startingColor, endingColor).setCoefficient(1.4f).setEasing(Easing.BACK_IN_OUT).build())
                 .setSpinData(SpinParticleData.create(0.1f, 0.3f).setSpinOffset((level.getGameTime() * 0.5f) % 2.54f).setEasing(Easing.BOUNCE_IN_OUT).build())
-                .setLifetime(20)
-                .addMotion(0d, 1d, 0d)
+                .setLifetime(30)
+                .addMotion(0d, 0d, 0d)
                 //.enableNoClip()
                 .spawn(level, pos.x + 0.5, pos.y + 1, pos.z + 0.5);
     }

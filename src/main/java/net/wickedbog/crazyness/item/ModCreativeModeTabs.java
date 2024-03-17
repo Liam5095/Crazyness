@@ -96,6 +96,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.PINE_PLANKS.get());
                         pOutput.accept(ModBlocks.PINE_LEAVES.get());
 
+                        pOutput.accept(ModBlocks.VISUAL_EFFECT_TESTER.get());
+
                         pOutput.accept(Blocks.TNT);
                     })
                     .build());
