@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-17T10:13:14.3591282	Block States: crazyness
+// 1.20.1	2024-03-17T11:13:20.3353383	Block States: crazyness
 901752dc4ac6376fd5cc081746c4bfa16a188311 assets/crazyness/blockstates/catmint.json
 699f6cb946f0db6d522e087def2307ce47281946 assets/crazyness/blockstates/corn_crop.json
 68171d19e5d54461984e3288eff58c005ac29528 assets/crazyness/blockstates/deepslate_sapphire_ore.json
@@ -19,7 +19,6 @@ c25756812c93b3b0a6cc491554df902dda5d2363 assets/crazyness/blockstates/sapphire_o
 f422e195823d64ecd1bf7d51d629879e4bc9c135 assets/crazyness/blockstates/sapphire_stairs.json
 b0e3c958ea759045f0b1976f8c63e1b602982953 assets/crazyness/blockstates/sapphire_trapdoor.json
 23fab6fc287540470f2fc5449ca06cbd5f6186c3 assets/crazyness/blockstates/sapphire_wall.json
-cb23b9ed82ba89986c905829a3f17a25a893d0a1 assets/crazyness/blockstates/shriekalyst.json
 01213e5d5975c09d653926ca28be2f814803ad48 assets/crazyness/blockstates/strawberry_crop.json
 1ab36b6c477f5402eabc893564381f9f4026d456 assets/crazyness/blockstates/uranium_block.json
 67199e9509f77bea19769fe3df88760d01a54965 assets/crazyness/blockstates/uranium_ore.json
@@ -70,7 +69,6 @@ c61902155c0babb3a7c961da88940dd74bc95aff assets/crazyness/models/block/sapphire_
 f18f423b4562d49a6144a0ca051cff4a36d53ea6 assets/crazyness/models/block/sapphire_wall_post.json
 872be59136871d000a28b59754987d4a8bb03519 assets/crazyness/models/block/sapphire_wall_side.json
 9db2b0f7369e4826066311a5e22bc297edc39fd7 assets/crazyness/models/block/sapphire_wall_side_tall.json
-fdd994be41221982704c5e398fd7d163eba3932f assets/crazyness/models/block/shriekalyst.json
 912302df12754f6b14f92e3431d7cc65d209419c assets/crazyness/models/block/strawberry_stage0.json
 61211088f46739dd904f860eca0a444989a05c18 assets/crazyness/models/block/strawberry_stage1.json
 269c7dc23e7b33f623e3c3fb4a28d961f864ae9d assets/crazyness/models/block/strawberry_stage2.json
@@ -89,6 +87,5 @@ f8cc70d43727ee1734c273312b0f0f8306b43554 assets/crazyness/models/item/nether_sap
 24743e57a186f6255b1d65956979cf6d512a4fc7 assets/crazyness/models/item/revamper.json
 cc3eab8b7bbf8e4a2b3cd39f7b13add91eb240be assets/crazyness/models/item/sapphire_block.json
 472c6931acfc703f4bc4e12ce18d261df2b1a7b5 assets/crazyness/models/item/sapphire_ore.json
-e1486dca54e88e68a26e5f13943082d51ebe7577 assets/crazyness/models/item/shriekalyst.json
 23187881306d75dcdbc2e7ba1af8da2229f0c58b assets/crazyness/models/item/uranium_block.json
 64e4004a8ce12d191df75a11e8d325df787a86b1 assets/crazyness/models/item/uranium_ore.json

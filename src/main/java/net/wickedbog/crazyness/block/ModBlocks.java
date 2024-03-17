@@ -51,7 +51,7 @@ public class ModBlocks {
             () -> new Revamper(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)));
 
     public static final RegistryObject<Block> SHRIEKALYST = registerBlock("shriekalyst",
-            () -> new Shriekalyst(BlockBehaviour.Properties.copy(Blocks.SCULK)));
+            () -> new Shriekalyst(BlockBehaviour.Properties.copy(Blocks.SCULK).noOcclusion()));
 
     public static final RegistryObject<Block> SAPPHIRE_STAIRS = registerBlock("sapphire_stairs",
             () -> new StairBlock(() -> ModBlocks.SAPPHIRE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));

@@ -58,10 +58,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 new ModelFile.UncheckedModelFile(modLoc("block/gem_polishing_station")));
 
         blockWithItem(ModBlocks.REVAMPER);
-        blockWithItem(ModBlocks.SHRIEKALYST);
 
         //Different textures
         //blockWithItem(ModBlocks.SOUND_BLOCK);
+        //blockWithItem(ModBlocks.SHRIEKALYST);
     }
 
     public void makeStrawberryCrop(CropBlock block, String modelName, String textureName) {
