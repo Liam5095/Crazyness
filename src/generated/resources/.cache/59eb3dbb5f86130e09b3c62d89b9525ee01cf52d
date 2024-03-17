@@ -1,13 +1,17 @@
-// 1.20.1	2024-03-17T14:19:08.1046163	Loot Tables
+// 1.20.1	2024-03-17T15:02:38.2816516	Loot Tables
 ed7bb515fa906936785b245cc924b3c07097e4bb data/crazyness/loot_tables/blocks/catmint.json
 66de5393ce636f4edc1fd6632ef7c7f5320713a7 data/crazyness/loot_tables/blocks/corn_crop.json
 9cf9a932223101d5ea13bad546a6a5dce4add4fa data/crazyness/loot_tables/blocks/deepslate_sapphire_ore.json
 862b8c3ff1b01ca12fec04a2980a5e3a37311953 data/crazyness/loot_tables/blocks/end_stone_sapphire_ore.json
 f63a6b8f674996f62f193d7a949c19576cb03689 data/crazyness/loot_tables/blocks/gem_polishing_station.json
 22c8723c9d267873cafd11c66fd4bd28cafada2e data/crazyness/loot_tables/blocks/nether_sapphire_ore.json
+273221729fe8e2e489dafeecfbebfe073e77e6c9 data/crazyness/loot_tables/blocks/pine_hanging_sign.json
 8b3740b5307fe80e8a740e7622322389f3c85554 data/crazyness/loot_tables/blocks/pine_leaves.json
 e9fca61a6814a009aaca4808856643b0e6d8da73 data/crazyness/loot_tables/blocks/pine_log.json
 788b2023bb3ab3ba5ae917eec104411fd5611e09 data/crazyness/loot_tables/blocks/pine_planks.json
+dc6bdc095742f4cae0a92f06a651793fca4c9cb4 data/crazyness/loot_tables/blocks/pine_sign.json
+e67fce95845b0d9c5846ddb98828264b0b169f80 data/crazyness/loot_tables/blocks/pine_wall_hanging_sign.json
+5406ee1193b8a879890618d1f86ddf980b5a8e35 data/crazyness/loot_tables/blocks/pine_wall_sign.json
 0e304e2a2245245115e4d7b248c85ffb784c165f data/crazyness/loot_tables/blocks/pine_wood.json
 6135ca0b96fe9b4e268234b8cbe36423c7db654e data/crazyness/loot_tables/blocks/potted_catmint.json
 fd5bbeb4ac1827b3cc0332392a520f7a73514804 data/crazyness/loot_tables/blocks/raw_sapphire_block.json

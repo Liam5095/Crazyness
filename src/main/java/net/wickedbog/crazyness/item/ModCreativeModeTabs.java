@@ -98,6 +98,9 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModBlocks.VISUAL_EFFECT_TESTER.get());
 
+                        pOutput.accept(ModItems.PINE_SIGN.get());
+                        pOutput.accept(ModItems.PINE_HANGING_SIGN.get());
+
                         pOutput.accept(Blocks.TNT);
                     })
                     .build());

@@ -19,6 +19,7 @@ import net.wickedbog.crazyness.block.custom.*;
 import net.wickedbog.crazyness.crazyness;
 import net.wickedbog.crazyness.item.ModItems;
 import net.wickedbog.crazyness.sound.ModSounds;
+import net.wickedbog.crazyness.util.ModWoodTypes;
 
 import java.util.function.Supplier;
 
@@ -55,7 +56,7 @@ public class ModBlocks {
             () -> new Revamper(BlockBehaviour.Properties.copy(Blocks.SCULK)));
 
     public static final RegistryObject<Block> VISUAL_EFFECT_TESTER = registerBlock("visual_effect_tester",
-            () -> new VisualEffectTester(BlockBehaviour.Properties.copy(Blocks.SCULK)));
+            () -> new VisualEffectTester(BlockBehaviour.Properties.copy(Blocks.SCULK).noLootTable()));
 
     public static final RegistryObject<Block> SHRIEKALYST = registerBlock("shriekalyst",
             () -> new Shriekalyst(BlockBehaviour.Properties.copy(Blocks.SCULK).noOcclusion()));
@@ -111,6 +112,16 @@ public class ModBlocks {
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).strength(3f)));
     public static final RegistryObject<Block> STRIPPED_PINE_WOOD = registerBlock("stripped_pine_wood",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD).strength(3f)));
+
+    public static final RegistryObject<Block> PINE_SIGN = BLOCKS.register("pine_sign",
+            () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), ModWoodTypes.PINE));
+    public static final RegistryObject<Block> PINE_WALL_SIGN = BLOCKS.register("pine_wall_sign",
+            () -> new ModWallSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_SIGN), ModWoodTypes.PINE));
+
+    public static final RegistryObject<Block> PINE_HANGING_SIGN = BLOCKS.register("pine_hanging_sign",
+            () -> new ModHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_HANGING_SIGN), ModWoodTypes.PINE));
+    public static final RegistryObject<Block> PINE_WALL_HANGING_SIGN = BLOCKS.register("pine_wall_hanging_sign",
+            () -> new ModWallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_HANGING_SIGN), ModWoodTypes.PINE));
 
     public static final RegistryObject<Block> PINE_PLANKS = registerBlock("pine_planks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
