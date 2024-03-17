@@ -52,6 +52,14 @@
 
   "block.crazyness.gem_polishing_station": "Gem Polishing Station",
 
+  "block.crazyness.pine_log": "Pine Log",
+  "block.crazyness.stripped_pine_log": "Stripped Pine Log",
+  "block.crazyness.pine_wood": "Pine Wood",
+  "block.crazyness.stripped_pine_wood": "Stripped Pine Wood",
+
+  "block.crazyness.pine_planks": "Pine Planks",
+  "block.crazyness.pine_leaves": "Pine Leaves",
+
   "tooltip.crazyness.metal_detector": "Finds valuables underground!",
   "tooltip.crazyness.sound_block": "Plays the wither death sound effect to prank your friends!",
 

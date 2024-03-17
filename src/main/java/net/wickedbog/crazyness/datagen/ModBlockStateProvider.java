@@ -8,6 +8,7 @@ import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.wickedbog.crazyness.block.ModBlocks;
 import net.wickedbog.crazyness.block.custom.CornCropBlock;
@@ -59,6 +60,23 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         blockWithItem(ModBlocks.REVAMPER);
 
+        logBlock(((RotatedPillarBlock) ModBlocks.PINE_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.PINE_WOOD.get()), blockTexture(ModBlocks.PINE_LOG.get()), blockTexture(ModBlocks.PINE_LOG.get()));
+
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_PINE_LOG.get()), blockTexture(ModBlocks.STRIPPED_PINE_LOG.get()),
+                new ResourceLocation(crazyness.MOD_ID, "block/stripped_pine_log_top"));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_PINE_WOOD.get()), blockTexture(ModBlocks.STRIPPED_PINE_LOG.get()),
+                blockTexture(ModBlocks.STRIPPED_PINE_LOG.get()));
+
+        blockItem(ModBlocks.PINE_LOG);
+        blockItem(ModBlocks.PINE_WOOD);
+        blockItem(ModBlocks.STRIPPED_PINE_LOG);
+        blockItem(ModBlocks.STRIPPED_PINE_WOOD);
+
+        blockWithItem(ModBlocks.PINE_PLANKS);
+
+        leavesBlock(ModBlocks.PINE_LEAVES);
+
         //Different textures
         //blockWithItem(ModBlocks.SOUND_BLOCK);
         //blockWithItem(ModBlocks.SHRIEKALYST);
@@ -70,7 +88,16 @@ public class ModBlockStateProvider extends BlockStateProvider {
         getVariantBuilder(block).forAllStates(function);
     }
 
+    private void leavesBlock(RegistryObject<Block> blockRegistryObject) {
+        simpleBlockWithItem(blockRegistryObject.get(),
+                models().singleTexture(ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath(), new ResourceLocation("minecraft:block/leaves"),
+                        "all", blockTexture(blockRegistryObject.get())).renderType("cutout"));
+    }
 
+    private void blockItem(RegistryObject<Block> blockRegistryObject) {
+        simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile(crazyness.MOD_ID +
+                ":block/" + ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath()));
+    }
 
     private ConfiguredModel[] strawberryStates(BlockState state, CropBlock block, String modelName, String textureName) {
         ConfiguredModel[] models = new ConfiguredModel[1];

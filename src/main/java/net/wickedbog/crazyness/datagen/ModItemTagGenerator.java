@@ -6,6 +6,7 @@ import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.wickedbog.crazyness.block.ModBlocks;
 import net.wickedbog.crazyness.crazyness;
 import net.wickedbog.crazyness.item.ModItems;
 import org.jetbrains.annotations.Nullable;
@@ -29,5 +30,14 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
         this.tag(ItemTags.CREEPER_DROP_MUSIC_DISCS)
                 .add(ModItems.BAR_BRAWL_MUSIC_DISC.get());
+
+        this.tag(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.PINE_LOG.get().asItem())
+                .add(ModBlocks.PINE_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_PINE_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_PINE_WOOD.get().asItem());
+
+        this.tag(ItemTags.PLANKS)
+                .add(ModBlocks.PINE_PLANKS.get().asItem());
     }
 }

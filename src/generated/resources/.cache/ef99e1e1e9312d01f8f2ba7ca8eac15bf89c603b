@@ -1,4 +1,6 @@
-// 1.20.1	2024-03-14T19:13:39.6940066	Tags for minecraft:item mod id crazyness
+// 1.20.1	2024-03-17T14:19:08.1097094	Tags for minecraft:item mod id crazyness
 fed1e3f256d75079dc29e503c2557d0e7c2ef82f data/minecraft/tags/items/creeper_drop_music_discs.json
+51ed4e98323b6626b1d8185acfd9e4282bb6a205 data/minecraft/tags/items/logs_that_burn.json
 fed1e3f256d75079dc29e503c2557d0e7c2ef82f data/minecraft/tags/items/music_discs.json
+46fbe9dc6299090f64cf280ede65fdbbe1e0a7f8 data/minecraft/tags/items/planks.json
 114592bbd5395de58cfd877cff0f068ba18ca82f data/minecraft/tags/items/trimmable_armor.json

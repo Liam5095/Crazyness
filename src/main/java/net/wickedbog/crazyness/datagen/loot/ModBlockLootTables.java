@@ -90,6 +90,15 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.CORN_CROP.get(), createCropDrops(ModBlocks.CORN_CROP.get(), ModItems.CORN.get(),
                 ModItems.CORN_SEEDS.get(), lootitemcondition$builder2));
 
+        this.dropSelf(ModBlocks.PINE_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_PINE_LOG.get());
+        this.dropSelf(ModBlocks.PINE_WOOD.get());
+        this.dropSelf(ModBlocks.PINE_PLANKS.get());
+        this.dropSelf(ModBlocks.STRIPPED_PINE_WOOD.get());
+
+        this.add(ModBlocks.PINE_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.SAPPHIRE_BLOCK.get(), NORMAL_LEAVES_SAPLING_CHANCES)); // TODO: Change to Sapling!
+
         // LootItemCondition.Builder lootitemcondition$builder2 = LootItemBlockStatePropertyCondition
         //         .hasBlockStateProperties(ModBlocks.CORN_CROP.get())
         //         .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CornCropBlock.AGE, 8));

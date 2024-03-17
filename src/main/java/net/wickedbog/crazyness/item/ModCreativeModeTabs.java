@@ -88,6 +88,14 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModItems.SAPPHIRE_STAFF.get());
 
+                        pOutput.accept(ModBlocks.PINE_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_PINE_LOG.get());
+                        pOutput.accept(ModBlocks.PINE_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_PINE_WOOD.get());
+
+                        pOutput.accept(ModBlocks.PINE_PLANKS.get());
+                        pOutput.accept(ModBlocks.PINE_LEAVES.get());
+
                         pOutput.accept(Blocks.TNT);
                     })
                     .build());

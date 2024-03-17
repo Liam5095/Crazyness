@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-13T13:41:47.8319591	Tags for minecraft:block mod id crazyness
+// 1.20.1	2024-03-17T14:19:08.1066517	Tags for minecraft:block mod id crazyness
 95a13d0869caab1a93bd311e27efb01896b42436 data/crazyness/tags/blocks/metal_detector_valuables.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/crazyness/tags/blocks/needs_sapphire_tool.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_gold_tool.json
@@ -6,11 +6,13 @@
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_wood_tool.json
 ac1cdf4a08267648fe575ddee9f0cdd2889644f0 data/minecraft/tags/blocks/fences.json
 5471952d0224ec056f89f3c633f0484e97899a6a data/minecraft/tags/blocks/fence_gates.json
+51ed4e98323b6626b1d8185acfd9e4282bb6a205 data/minecraft/tags/blocks/logs_that_burn.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/mineable/axe.json
-35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/mineable/hoe.json
+a5472098ea8abe75c98e7bd7588069a6c860541b data/minecraft/tags/blocks/mineable/hoe.json
 9e27d1ed7f2295439e644b2533abe7a22cf42bbc data/minecraft/tags/blocks/mineable/pickaxe.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/mineable/shovel.json
 7b7441cecf8dffc9cd6b8173ebe583da94b7a18c data/minecraft/tags/blocks/needs_diamond_tool.json
 4bf42349661ae2e0d07fb96347efdd9fb2956b56 data/minecraft/tags/blocks/needs_iron_tool.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_stone_tool.json
+46fbe9dc6299090f64cf280ede65fdbbe1e0a7f8 data/minecraft/tags/blocks/planks.json
 402f8fa8d4e406d1f608c9073806c0cee9c323da data/minecraft/tags/blocks/walls.json

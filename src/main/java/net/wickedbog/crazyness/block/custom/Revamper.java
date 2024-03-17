@@ -13,7 +13,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.Vec3;
 import net.wickedbog.crazyness.item.ModItems;
-import net.wickedbog.crazyness.visual_effects.ExampleParticleEffect;
+import net.wickedbog.crazyness.visual_effects.RevamperParticleEffects;
 
 public class Revamper extends Block {
     public Revamper(Properties pProperties) {
@@ -33,8 +33,8 @@ public class Revamper extends Block {
 
     @Override
     public void animateTick(BlockState pState, Level pLevel, BlockPos pPos, RandomSource pRandom) {
-        ExampleParticleEffect.spawnExampleParticles(pLevel, new Vec3(pPos.getX(), pPos.getY() + 0.5, pPos.getZ()));
-        ExampleParticleEffect.spawnSecondParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+        RevamperParticleEffects.spawnExampleParticles(pLevel, new Vec3(pPos.getX(), pPos.getY() + 0.5, pPos.getZ()));
+        RevamperParticleEffects.spawnSecondParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
     }
 
     @Override
@@ -42,27 +42,27 @@ public class Revamper extends Block {
         if (pPlayer.isHolding(ModItems.SAPPHIRE.get())) {
             pLevel.playSound(pPlayer, pPos, SoundEvents.LIGHTNING_BOLT_IMPACT, SoundSource.MASTER);
             pPlayer.getItemInHand(pHand).setCount(pPlayer.getItemInHand(pHand).getCount() - 1);
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
-            ExampleParticleEffect.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
+            RevamperParticleEffects.spawnExplodeParticle(pLevel, new Vec3(pPos.getX(), pPos.getY() + 2, pPos.getZ()));
             pLevel.playSound(pPlayer, pPos, SoundEvents.LIGHTNING_BOLT_THUNDER, SoundSource.MASTER);
             return InteractionResult.SUCCESS;
         }

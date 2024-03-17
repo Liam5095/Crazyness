@@ -1,15 +1,9 @@
 package net.wickedbog.crazyness.visual_effects;
 
-import net.minecraft.client.*;
-import net.minecraft.client.player.*;
-import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.*;
 import net.minecraft.world.phys.*;
 import net.minecraftforge.api.distmarker.*;
-import net.minecraftforge.event.*;
-import net.minecraftforge.eventbus.api.*;
 import net.minecraftforge.fml.common.*;
-import org.checkerframework.checker.units.qual.min;
 import team.lodestar.lodestone.setup.LodestoneParticleRegistry;
 import team.lodestar.lodestone.systems.easing.*;
 import team.lodestar.lodestone.systems.particle.builder.*;
@@ -21,7 +15,7 @@ import java.awt.Color;
 import java.util.Random;
 
 @Mod.EventBusSubscriber(value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.FORGE)
-public class ExampleParticleEffect {
+public class RevamperParticleEffects {
 
     //@SubscribeEvent
     //public static void clientTick(TickEvent.ClientTickEvent event) {
