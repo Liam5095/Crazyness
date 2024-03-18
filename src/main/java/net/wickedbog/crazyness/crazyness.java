@@ -20,6 +20,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.wickedbog.crazyness.block.ModBlocks;
 import net.wickedbog.crazyness.block.entity.ModBlockEntities;
 import net.wickedbog.crazyness.entity.ModEntities;
+import net.wickedbog.crazyness.entity.client.ModBoatRenderer;
 import net.wickedbog.crazyness.entity.client.RhinoRenderer;
 import net.wickedbog.crazyness.item.ModCreativeModeTabs;
 import net.wickedbog.crazyness.item.ModItems;
@@ -95,6 +96,8 @@ public class crazyness
             Sheets.addWoodType(ModWoodTypes.PINE);
 
             EntityRenderers.register(ModEntities.RHINO.get(), RhinoRenderer::new);
+            EntityRenderers.register(ModEntities.MOD_BOAT.get(), pContext -> new ModBoatRenderer(pContext, false));
+            EntityRenderers.register(ModEntities.MOD_CHEST_BOAT.get(), pContext -> new ModBoatRenderer(pContext, true));
 
             MenuScreens.register(ModMenuTypes.GEM_POLISHING_MENU.get(), GemPolishingStationScreen::new);
         }

@@ -10,10 +10,12 @@ import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.item.crafting.ShapedRecipe;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import net.wickedbog.crazyness.block.ModBlocks;
 import net.wickedbog.crazyness.crazyness;
 import net.wickedbog.crazyness.item.ModItems;
+import net.wickedbog.crazyness.util.ModTags;
 
 import java.util.Iterator;
 import java.util.List;
@@ -267,6 +269,21 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PINE_WOOD.get(), 3)
+                .pattern("ww ")
+                .pattern("ww ")
+                .pattern("   ")
+                .define('w', ModBlocks.PINE_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.PINE_LOG.get()), has(ModBlocks.PINE_LOG.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_PINE_WOOD.get(), 3)
+                .pattern("ww ")
+                .pattern("ww ")
+                .pattern("   ")
+                .define('w', ModBlocks.STRIPPED_PINE_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.STRIPPED_PINE_LOG.get()), has(ModBlocks.STRIPPED_PINE_LOG.get()))
+                .save(pWriter);
 
         //Shapeless
 
@@ -307,6 +324,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(Blocks.SCULK_SHRIEKER)
                 .unlockedBy(getHasName(Blocks.SCULK_CATALYST), has(Blocks.SCULK_CATALYST))
                 .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.PINE_PLANKS.get(), 4)
+                .requires(ModBlocks.PINE_LOG.get())
+                .unlockedBy(getHasName(Blocks.SCULK_CATALYST), has(Blocks.SCULK_CATALYST))
+                .save(pWriter);
+
     }
 
     protected static void oneToOneConversionRecipe(Consumer<FinishedRecipe> pFinishedRecipeConsumer, ItemLike pResult, ItemLike pIngredient, @javax.annotation.Nullable String pGroup) {

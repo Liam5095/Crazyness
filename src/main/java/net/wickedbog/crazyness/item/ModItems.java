@@ -9,9 +9,11 @@ import net.minecraftforge.registries.RegistryObject;
 import net.wickedbog.crazyness.block.ModBlocks;
 import net.wickedbog.crazyness.crazyness;
 import net.wickedbog.crazyness.entity.ModEntities;
+import net.wickedbog.crazyness.entity.custom.ModBoatEntity;
 import net.wickedbog.crazyness.item.custom.FuelItem;
 import net.wickedbog.crazyness.item.custom.MetalDetectorItem;
 import net.wickedbog.crazyness.item.custom.ModArmorItem;
+import net.wickedbog.crazyness.item.custom.ModBoatItem;
 import net.wickedbog.crazyness.sound.ModSounds;
 
 public class ModItems {
@@ -105,6 +107,12 @@ public class ModItems {
             () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.PINE_SIGN.get(), ModBlocks.PINE_WALL_SIGN.get()));
     public static final RegistryObject<Item> PINE_HANGING_SIGN = ITEMS.register("pine_hanging_sign",
             () -> new HangingSignItem( ModBlocks.PINE_HANGING_SIGN.get(), ModBlocks.PINE_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+
+    public static final RegistryObject<Item> PINE_BOAT = ITEMS.register("pine_boat",
+            () -> new ModBoatItem(false, ModBoatEntity.Type.PINE, new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> PINE_CHEST_BOAT = ITEMS.register("pine_chest_boat",
+            () -> new ModBoatItem(true, ModBoatEntity.Type.PINE, new Item.Properties().stacksTo(1)));
+
 
 
     public static void register(IEventBus eventBus) {

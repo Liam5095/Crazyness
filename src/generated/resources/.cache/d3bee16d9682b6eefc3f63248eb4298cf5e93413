@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-17T15:02:38.2832151	Item Models: crazyness
+// 1.20.1	2024-03-18T15:38:44.3542187	Item Models: crazyness
 37a663680c6750dac84300a086e0c21b5d4afd13 assets/crazyness/models/item/bar_brawl_music_disc.json
 7c7d8f5d9125f3a1884021ece58c1c035ccf50ee assets/crazyness/models/item/catmint.json
 5f0ce422c50d9648ca469b30a3e54b8f9e78a5a7 assets/crazyness/models/item/cheese.json
@@ -10,6 +10,8 @@ ae5a3a6413f6ab22cd8920ba76e6db29b0b14ceb assets/crazyness/models/item/discodip.j
 f1a4ec7c6c3a0fe6c9c5e8627ea63a97ae838f3c assets/crazyness/models/item/ice_cream_cone.json
 eb6d82cee1e5b09e32f1872874fb7ba51ca2233c assets/crazyness/models/item/ice_cream_discodip.json
 e7c5eef67d5fb0d09112e0c5ea070d2da82d2f65 assets/crazyness/models/item/metal_detector.json
+5d9ba7b9c908f90a592dd867cfd436e1d3a76ec9 assets/crazyness/models/item/pine_boat.json
+8b4a567fa6ec17f294b3b89ba0daac737d312be3 assets/crazyness/models/item/pine_chest_boat.json
 a8275991816c98d061cb11cd84d6e41565ecd430 assets/crazyness/models/item/pine_cone.json
 dff5a76ac9d5229a63e61ef911ed2a0d6cc8179d assets/crazyness/models/item/pine_hanging_sign.json
 d81e060f101d8748008bebab4044670449ff569e assets/crazyness/models/item/pine_sign.json

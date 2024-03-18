@@ -65,11 +65,17 @@
 
   "entity.minecraft.villager.crazyness.sound_master": "Sound Master",
   "entity.crazyness.rhino": "Rhino",
+  "entity.crazyness.pine_boat": "Pine Boat",
+  "entity.crazyness.pine_chest_boat": "Pine Chest Boat",
+  "entity.crazyness.mod_chest_boat": "Boat With Chest",
 
   "item.crazyness.rhino_spawn_egg": "Rhino Spawn Egg",
 
   "block.crazyness.pine_sign": "Pine Sign",
   "block.crazyness.pine_hanging_sign": "Pine Hanging Sign",
+
+  "item.crazyness.pine_boat": "Pine Boat",
+  "item.crazyness.pine_chest_boat": "Pine Chest Boat",
 
   "item.crazyness.sapphire_sword": "Sapphire Sword",
   "item.crazyness.sapphire_pickaxe": "Sapphire Pickaxe",

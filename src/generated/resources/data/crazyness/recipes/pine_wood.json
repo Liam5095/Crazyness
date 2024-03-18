@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "w": {
+      "item": "crazyness:pine_log"
+    }
+  },
+  "pattern": [
+    "ww ",
+    "ww ",
+    "   "
+  ],
+  "result": {
+    "count": 3,
+    "item": "crazyness:pine_wood"
+  },
+  "show_notification": true
+}
