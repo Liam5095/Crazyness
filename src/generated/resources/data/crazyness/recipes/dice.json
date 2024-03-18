@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "minecraft:clay"
+    },
+    "w": {
+      "item": "minecraft:white_concrete"
+    }
+  },
+  "pattern": [
+    "wcw",
+    "cwc",
+    "wcw"
+  ],
+  "result": {
+    "count": 3,
+    "item": "crazyness:dice"
+  },
+  "show_notification": true
+}

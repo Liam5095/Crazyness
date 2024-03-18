@@ -105,6 +105,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.PINE_CHEST_BOAT.get());
 
                         pOutput.accept(ModItems.DICE.get());
+                        pOutput.accept(ModItems.DYANMITE.get());
 
                         pOutput.accept(Blocks.TNT);
                     })

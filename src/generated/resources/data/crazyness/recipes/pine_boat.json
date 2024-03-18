@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "p": {
+      "item": "crazyness:pine_planks"
+    }
+  },
+  "pattern": [
+    "   ",
+    "p p",
+    "ppp"
+  ],
+  "result": {
+    "item": "crazyness:pine_boat"
+  },
+  "show_notification": true
+}

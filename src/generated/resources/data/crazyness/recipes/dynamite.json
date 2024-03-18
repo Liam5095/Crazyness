@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": {
+      "item": "minecraft:gunpowder"
+    },
+    "l": {
+      "item": "minecraft:lead"
+    },
+    "t": {
+      "item": "minecraft:tnt"
+    }
+  },
+  "pattern": [
+    " g ",
+    "gtg",
+    "tlt"
+  ],
+  "result": {
+    "count": 5,
+    "item": "crazyness:dynamite"
+  },
+  "show_notification": true
+}

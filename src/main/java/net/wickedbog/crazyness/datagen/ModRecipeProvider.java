@@ -285,6 +285,52 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.STRIPPED_PINE_LOG.get()), has(ModBlocks.STRIPPED_PINE_LOG.get()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PINE_SIGN.get(), 3)
+                .pattern("ppp")
+                .pattern("ppp")
+                .pattern(" s ")
+                .define('p', ModBlocks.PINE_PLANKS.get())
+                .define('s', Items.STICK)
+                .unlockedBy(getHasName(ModBlocks.PINE_PLANKS.get()), has(ModBlocks.PINE_PLANKS.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PINE_HANGING_SIGN.get(), 6)
+                .pattern("c c")
+                .pattern("sss")
+                .pattern("sss")
+                .define('s', ModBlocks.STRIPPED_PINE_LOG.get())
+                .define('c', Items.CHAIN)
+                .unlockedBy(getHasName(ModBlocks.STRIPPED_PINE_LOG.get()), has(ModBlocks.STRIPPED_PINE_LOG.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.PINE_BOAT.get(), 1)
+                .pattern("   ")
+                .pattern("p p")
+                .pattern("ppp")
+                .define('p', ModBlocks.PINE_PLANKS.get())
+                .unlockedBy(getHasName(ModBlocks.PINE_PLANKS.get()), has(ModBlocks.PINE_PLANKS.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DICE.get(), 3)
+                .pattern("wcw")
+                .pattern("cwc")
+                .pattern("wcw")
+                .define('w', Blocks.WHITE_CONCRETE)
+                .define('c', Blocks.CLAY)
+                .unlockedBy(getHasName(Items.CLAY_BALL), has(Items.CLAY_BALL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DYANMITE.get(), 5)
+                .pattern(" g ")
+                .pattern("gtg")
+                .pattern("tlt")
+                .define('t', Blocks.TNT)
+                .define('l', Items.LEAD)
+                .define('g', Items.GUNPOWDER)
+                .unlockedBy(getHasName(ModBlocks.PINE_PLANKS.get()), has(ModBlocks.PINE_PLANKS.get()))
+                .save(pWriter);
+
+
         //Shapeless
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 9)
@@ -330,6 +376,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(Blocks.SCULK_CATALYST), has(Blocks.SCULK_CATALYST))
                 .save(pWriter);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PINE_CHEST_BOAT.get())
+                .requires(ModItems.PINE_BOAT.get())
+                .requires(Blocks.CHEST)
+                .unlockedBy(getHasName(ModBlocks.PINE_PLANKS.get()), has(ModBlocks.PINE_PLANKS.get()))
+                .save(pWriter);
     }
 
     protected static void oneToOneConversionRecipe(Consumer<FinishedRecipe> pFinishedRecipeConsumer, ItemLike pResult, ItemLike pIngredient, @javax.annotation.Nullable String pGroup) {
