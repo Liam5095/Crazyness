@@ -98,6 +98,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.PINE_CHEST_BOAT);
 
         simpleItem(ModItems.DICE);
+        simpleItem(ModItems.DYANMITE);
     }
 
     // Shoutout to El_Redstoniano for making this!

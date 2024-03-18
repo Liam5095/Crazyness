@@ -1,10 +1,7 @@
 package net.wickedbog.crazyness.entity;
 
 import net.wickedbog.crazyness.crazyness;
-import net.wickedbog.crazyness.entity.custom.DiceProjectileEntity;
-import net.wickedbog.crazyness.entity.custom.ModBoatEntity;
-import net.wickedbog.crazyness.entity.custom.ModChestBoatEntity;
-import net.wickedbog.crazyness.entity.custom.RhinoEntity;
+import net.wickedbog.crazyness.entity.custom.*;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -32,6 +29,10 @@ public class ModEntities {
     public static final RegistryObject<EntityType<DiceProjectileEntity>> DICE_PROJECTILE =
             ENTITY_TYPES.register("dice_projectile", () -> EntityType.Builder.<DiceProjectileEntity>of(DiceProjectileEntity::new, MobCategory.MISC)
                     .sized(0.5f, 0.5f).build("dice_projectile"));
+
+    public static final RegistryObject<EntityType<DynamiteProjectileEntity>> DYNAMITE_PROJECTILE =
+            ENTITY_TYPES.register("dynamite_projetile",() -> EntityType.Builder.<DynamiteProjectileEntity>of(DynamiteProjectileEntity::new, MobCategory.MISC)
+                    .sized(0.5f,0.5f).build("dynamite_projectile"));
 
 
 

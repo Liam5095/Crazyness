@@ -89,6 +89,7 @@
   "item.crazyness.sapphire_boots": "Sapphire Boots",
 
   "item.crazyness.dice": "Dice",
+  "item.crazyness.dynamite": "Dynamite",
 
   "item.crazyness.bar_brawl_music_disc": "Bar Brawl Music Disc",
   "item.crazyness.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
@@ -98,5 +99,5 @@
   "sounds.crazyness.sound_block_place": "Placed Sound Block",
   "sounds.crazyness.sound_block_hit": "Hit Sound Block",
   "sounds.crazyness.sound_block_fall": "Fell On Sound Block",
-  "sounds.crazyness.sound_block_break": "Broke A Sound Block",
+  "sounds.crazyness.sound_block_break": "Broke A Sound Block"
 }
