@@ -10,10 +10,7 @@ import net.wickedbog.crazyness.block.ModBlocks;
 import net.wickedbog.crazyness.crazyness;
 import net.wickedbog.crazyness.entity.ModEntities;
 import net.wickedbog.crazyness.entity.custom.ModBoatEntity;
-import net.wickedbog.crazyness.item.custom.FuelItem;
-import net.wickedbog.crazyness.item.custom.MetalDetectorItem;
-import net.wickedbog.crazyness.item.custom.ModArmorItem;
-import net.wickedbog.crazyness.item.custom.ModBoatItem;
+import net.wickedbog.crazyness.item.custom.*;
 import net.wickedbog.crazyness.sound.ModSounds;
 
 public class ModItems {
@@ -112,6 +109,9 @@ public class ModItems {
             () -> new ModBoatItem(false, ModBoatEntity.Type.PINE, new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> PINE_CHEST_BOAT = ITEMS.register("pine_chest_boat",
             () -> new ModBoatItem(true, ModBoatEntity.Type.PINE, new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> DICE = ITEMS.register("dice",
+            () -> new DiceItem(new Item.Properties().stacksTo(16)));
 
 
 

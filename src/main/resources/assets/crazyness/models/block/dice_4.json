@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "crazyness:block/dice_4",
+    "down": "crazyness:block/dice_3",
+    "north": "crazyness:block/dice_1",
+    "east": "crazyness:block/dice_5",
+    "south": "crazyness:block/dice_6",
+    "west": "crazyness:block/dice_2",
+    "particle": "crazyness:block/dice_4"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "number=up": {
+      "model": "crazyness:block/dice_1"
+    },
+    "number=north": {
+      "model": "crazyness:block/dice_2"
+    },
+    "number=east": {
+      "model": "crazyness:block/dice_3"
+    },
+    "number=south": {
+      "model": "crazyness:block/dice_5"
+    },
+    "number=west": {
+      "model": "crazyness:block/dice_4"
+    },
+    "number=down": {
+      "model": "crazyness:block/dice_6"
+    }
+  }
+}
