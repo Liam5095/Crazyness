@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-20T13:22:18.6279006	Recipes
+// 1.20.1	2024-03-20T13:53:51.0058216	Recipes
 9469f0d5dbc9dc0eb660e080ed989bb7a32f86ce data/crazyness/advancements/recipes/misc/dice.json
 8ed76822d43ef03f3415a20041c334ee5a53dc04 data/crazyness/advancements/recipes/misc/dynamite.json
 d9267aa07170d0ed1623f8600383db2fba34d9f8 data/crazyness/advancements/recipes/misc/explosive_apple.json
@@ -13,6 +13,7 @@ b5bbd95f1515d9f08f2276bd66f009a014ce5876 data/crazyness/advancements/recipes/mis
 6897e76feb306c4aebcc5dc319f450694f6cbcb8 data/crazyness/advancements/recipes/misc/radioactive_coal.json
 b481a3d0243dae00e535fea066dba65759d4f855 data/crazyness/advancements/recipes/misc/raw_sapphire.json
 e7dcd5367624d2bb55846953f420e251d99f1f93 data/crazyness/advancements/recipes/misc/raw_sapphire_block.json
+c178ec9ffee884f0c83e4490ce017e7f15a071af data/crazyness/advancements/recipes/misc/rope.json
 d5928212e24e029d4d619295b9a47f8366726212 data/crazyness/advancements/recipes/misc/sapphire.json
 85c5e27a0abd4e2ed11f3f065d931904696ea979 data/crazyness/advancements/recipes/misc/sapphire_axe.json
 429e8192e708ac138b92b538c26129aa76006574 data/crazyness/advancements/recipes/misc/sapphire_block.json
@@ -68,6 +69,7 @@ eb469ab625571226b9e02f1816d60de293c3dac2 data/crazyness/recipes/pine_planks.json
 5b7bb488ce2c82b1fa9502ee569b45886de5357c data/crazyness/recipes/radioactive_coal.json
 c09127d33c290d4aac3d22b628e60d2a565277f3 data/crazyness/recipes/raw_sapphire.json
 eb367c0132ca21911fb1e1a60be8875a9365abc2 data/crazyness/recipes/raw_sapphire_block.json
+b25bcf6ddc3e9382c569774ddb3dd98cce900c98 data/crazyness/recipes/rope.json
 c4864cf0c8919f73fccfe14924009e28b56c576e data/crazyness/recipes/sapphire.json
 6212dc73b0ed2cc14762d8c24a9869f785284a45 data/crazyness/recipes/sapphire_axe.json
 ee889dc6cb2a5dab581bd5f49dd039ca37cc02ea data/crazyness/recipes/sapphire_block.json
