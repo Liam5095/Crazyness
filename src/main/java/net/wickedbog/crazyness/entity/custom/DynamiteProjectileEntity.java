@@ -32,13 +32,9 @@ public class DynamiteProjectileEntity extends ThrowableItemProjectile {
 
     @Override
     protected void onHitBlock(BlockHitResult pResult) {
-        PrimedTnt TNT = (PrimedTnt) EntityType.TNT.create(this.level());
-
         if(!this.level().isClientSide()) {
             this.level().broadcastEntityEvent(this, ((byte) 3));
-            TNT.moveTo(this.getX(), this.getY(), this.getZ(), this.getYRot(), 0.0F);
-            TNT.setFuse(0);
-            this.level().addFreshEntity(TNT);
+            this.level().explode(this, this.getX(), this.getY(0.0625), this.getZ(), 6.0F,false ,Level.ExplosionInteraction.TNT);
         }
 
         this.discard();
