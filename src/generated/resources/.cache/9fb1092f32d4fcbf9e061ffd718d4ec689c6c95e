@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-18T17:08:56.1349444	Recipes
+// 1.20.1	2024-03-20T13:22:18.6279006	Recipes
 9469f0d5dbc9dc0eb660e080ed989bb7a32f86ce data/crazyness/advancements/recipes/misc/dice.json
 8ed76822d43ef03f3415a20041c334ee5a53dc04 data/crazyness/advancements/recipes/misc/dynamite.json
 d9267aa07170d0ed1623f8600383db2fba34d9f8 data/crazyness/advancements/recipes/misc/explosive_apple.json
@@ -55,7 +55,7 @@ f3dbd5b5f83e4ad89d83e4703a2f00ec8c1c8e5b data/crazyness/advancements/recipes/mis
 9c6c9732c57aa4bb08b7b39d233accee4ae08920 data/crazyness/advancements/recipes/misc/uranium_ingot_from_blasting_uranium_ore.json
 f8d449ab1467dea4eee6b4b86d7ec6b52fea245d data/crazyness/advancements/recipes/misc/uranium_ingot_from_smelting_uranium_ore.json
 25ca77e0839df6516275bbe3bc31604acb2268ac data/crazyness/recipes/dice.json
-2b0163996f19bec9d927b5f02d6bf1e173b799a5 data/crazyness/recipes/dynamite.json
+5d1443c3eaf552553bfcac90a30016ddf3c510cc data/crazyness/recipes/dynamite.json
 91ffed5ad36ddfb0e136d3740277ff8efc466640 data/crazyness/recipes/explosive_apple.json
 b36526f190e469c05924d87a41301e937da67993 data/crazyness/recipes/gem_polishing_station.json
 b4b4d6fce198c5e626da3f44973a25afaf5f964b data/crazyness/recipes/metal_detector.json

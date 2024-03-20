@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-20T11:30:57.4759646	Item Models: crazyness
+// 1.20.1	2024-03-20T13:22:18.6304842	Item Models: crazyness
 37a663680c6750dac84300a086e0c21b5d4afd13 assets/crazyness/models/item/bar_brawl_music_disc.json
 7c7d8f5d9125f3a1884021ece58c1c035ccf50ee assets/crazyness/models/item/catmint.json
 5f0ce422c50d9648ca469b30a3e54b8f9e78a5a7 assets/crazyness/models/item/cheese.json
@@ -21,6 +21,7 @@ d81e060f101d8748008bebab4044670449ff569e assets/crazyness/models/item/pine_sign.
 a7123acf3d02d9e0b23bfbcd3b509ed66a4e57c1 assets/crazyness/models/item/radioactive_coal.json
 684a33137ac936fb6fe5d5e54d74353b15426aa0 assets/crazyness/models/item/raw_sapphire.json
 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/crazyness/models/item/rhino_spawn_egg.json
+b8ce4d8b077c9b40ed0e67abafc43525b74a469e assets/crazyness/models/item/rope.json
 a294daa819586669d5ccc9c9ee908c41fa52ffbc assets/crazyness/models/item/sapphire.json
 895a77a9a6e8c044c746f16e08396d0afa3e2cb3 assets/crazyness/models/item/sapphire_axe.json
 22695b630591e0faedae8e61b2060ce5ec568421 assets/crazyness/models/item/sapphire_boots.json

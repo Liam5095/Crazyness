@@ -39,6 +39,13 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
         add("metal_detector_from_sus_sand", new AddSusSandItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("archaeology/desert_pyramid")).build()}, ModItems.METAL_DETECTOR.get()));
 
+        add("corn_seed_from_skeleton", new AddItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("entities/skeleton")).build() ,
+                LootItemRandomChanceCondition.randomChance(0.20f).build()}, ModItems.CORN_SEEDS.get()));
+
+        add("strawberry_seed_from_bee", new AddItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("entities/bee")).build() ,
+                LootItemRandomChanceCondition.randomChance(0.50f).build()}, ModItems.STRAWBERRY_SEEDS.get()));
 
     }
 }

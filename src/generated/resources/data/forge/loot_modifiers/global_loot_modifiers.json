@@ -2,9 +2,11 @@
   "entries": [
     "crazyness:pine_cone_from_grass",
     "crazyness:pine_cone_from_creeper",
+    "crazyness:corn_seed_from_skeleton",
     "crazyness:metal_detector_from_jungle_temples",
     "crazyness:sapphire_from_zombie",
-    "crazyness:metal_detector_from_sus_sand"
+    "crazyness:metal_detector_from_sus_sand",
+    "crazyness:strawberry_seed_from_bee"
   ],
   "replace": false
 }

@@ -325,7 +325,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("gtg")
                 .pattern("tlt")
                 .define('t', Blocks.TNT)
-                .define('l', Items.LEAD)
+                .define('l', ModItems.ROPE.get())
                 .define('g', Items.GUNPOWDER)
                 .unlockedBy(getHasName(ModBlocks.PINE_PLANKS.get()), has(ModBlocks.PINE_PLANKS.get()))
                 .save(pWriter);

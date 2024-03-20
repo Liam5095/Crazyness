@@ -1,7 +1,9 @@
-// 1.20.1	2024-03-13T19:01:36.5964801	Global Loot Modifiers : crazyness
+// 1.20.1	2024-03-20T13:22:18.6258269	Global Loot Modifiers : crazyness
+f7d5c001e2a6848437127232151c1c9746444710 data/crazyness/loot_modifiers/corn_seed_from_skeleton.json
 7d00e294f546eaff0c25b1495fcf9c12955f1a31 data/crazyness/loot_modifiers/metal_detector_from_jungle_temples.json
 3993c1e7b7468b09ee30cde41a3fb0b97a853544 data/crazyness/loot_modifiers/metal_detector_from_sus_sand.json
 be1b7db0c6e1203f1c7b9f0d7afd0c305ced6209 data/crazyness/loot_modifiers/pine_cone_from_creeper.json
 41db8272a86b513438a63d90c3ca5ec68cf3949c data/crazyness/loot_modifiers/pine_cone_from_grass.json
 0109b5e9b606a45220eb0f755e179286c9bab37e data/crazyness/loot_modifiers/sapphire_from_zombie.json
-85cc0b36787be0f63777913c334abb317d3ad822 data/forge/loot_modifiers/global_loot_modifiers.json
+1c4385fc687aa4a42d4ce659bec93b3594156849 data/crazyness/loot_modifiers/strawberry_seed_from_bee.json
+155c88adef86d9c140e801d63704a567dfc4a585 data/forge/loot_modifiers/global_loot_modifiers.json

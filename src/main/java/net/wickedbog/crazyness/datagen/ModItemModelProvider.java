@@ -100,6 +100,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.DICE);
         simpleItem(ModItems.DYANMITE);
 
+        simpleItem(ModItems.ROPE);
+
         saplingItem(ModBlocks.PINE_SAPLING);
     }
 

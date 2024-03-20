@@ -116,6 +116,9 @@ public class ModItems {
     public static final RegistryObject<Item> DYANMITE = ITEMS.register("dynamite",
             () -> new DynamiteItem(new Item.Properties().stacksTo(16)));
 
+    public static final RegistryObject<Item> ROPE = ITEMS.register("rope",
+            () -> new Item(new Item.Properties()));
+
 
 
     public static void register(IEventBus eventBus) {
