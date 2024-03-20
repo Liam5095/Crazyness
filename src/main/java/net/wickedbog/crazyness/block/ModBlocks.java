@@ -20,6 +20,7 @@ import net.wickedbog.crazyness.crazyness;
 import net.wickedbog.crazyness.item.ModItems;
 import net.wickedbog.crazyness.sound.ModSounds;
 import net.wickedbog.crazyness.util.ModWoodTypes;
+import net.wickedbog.crazyness.worldgen.tree.PineTreeGrower;
 
 import java.util.function.Supplier;
 
@@ -160,6 +161,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> DICE_BLOCK = registerBlock("dice_block",
             () -> new DiceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noLootTable()));
+
+    public static final RegistryObject<Block> PINE_SAPLING = registerBlock("pine_sapling",
+            () -> new SaplingBlock(new PineTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

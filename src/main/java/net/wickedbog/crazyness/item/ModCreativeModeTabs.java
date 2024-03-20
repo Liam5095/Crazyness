@@ -107,6 +107,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.DICE.get());
                         pOutput.accept(ModItems.DYANMITE.get());
 
+                        pOutput.accept(ModBlocks.PINE_SAPLING.get());
+
                         pOutput.accept(Blocks.TNT);
                     })
                     .build());

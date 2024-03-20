@@ -99,6 +99,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.DICE);
         simpleItem(ModItems.DYANMITE);
+
+        saplingItem(ModBlocks.PINE_SAPLING);
     }
 
     // Shoutout to El_Redstoniano for making this!
@@ -147,6 +149,12 @@ public class ModItemModelProvider extends ItemModelProvider {
                                         "item/" + itemRegistryObject.getId().getPath()));
             });
         }
+    }
+
+    private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(crazyness.MOD_ID,"block/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
