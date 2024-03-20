@@ -22,7 +22,9 @@ public class DynamiteItem extends Item {
         pLevel.playSound((Player)null, pPlayer.getX(), pPlayer.getY(), pPlayer.getZ(),
                 SoundEvents.SNOWBALL_THROW, SoundSource.NEUTRAL,
                 0.5F, 0.4F / (pLevel.getRandom().nextFloat() * 0.4F + 0.8F));
-        pPlayer.getCooldowns().addCooldown(this, 20);
+        if (!pPlayer.isCreative()) {
+            pPlayer.getCooldowns().addCooldown(this, 20);
+        }
         if (!pLevel.isClientSide) {
             DynamiteProjectileEntity dynamite = new DynamiteProjectileEntity(pLevel, pPlayer);
             dynamite.setItem($$3);

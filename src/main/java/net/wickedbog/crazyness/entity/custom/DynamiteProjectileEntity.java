@@ -34,7 +34,12 @@ public class DynamiteProjectileEntity extends ThrowableItemProjectile {
     protected void onHitBlock(BlockHitResult pResult) {
         if(!this.level().isClientSide()) {
             this.level().broadcastEntityEvent(this, ((byte) 3));
-            this.level().explode(this, this.getX(), this.getY(0.0625), this.getZ(), 6.0F,false ,Level.ExplosionInteraction.TNT);
+            if (this.isOnFire()) {
+                this.level().explode(this, this.getX(), this.getY(0.0625), this.getZ(), 6.0F,true ,Level.ExplosionInteraction.TNT);
+            } else if (!this.isOnFire()) {
+                this.level().explode(this, this.getX(), this.getY(0.0625), this.getZ(), 6.0F,false ,Level.ExplosionInteraction.TNT);
+            }
+
         }
 
         this.discard();
